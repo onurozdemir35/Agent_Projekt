@@ -9,6 +9,9 @@ def load_and_split_documents(data_dir="./data", chunk_size=500, chunk_overlap=10
         raise FileNotFoundError(f"The directory '{data_dir}' does not exist. Please create it and add .txt or .pdf files.")
 
     docs = []
+    failed_files = []  # List to store files that failed to load
+    skipped_files = []  # List to store files that were skipped
+
     for root, _, files in os.walk(data_dir):  # Recursively traverse directories
         for filename in files:
             path = os.path.join(root, filename)
@@ -18,6 +21,7 @@ def load_and_split_documents(data_dir="./data", chunk_size=500, chunk_overlap=10
                 elif filename.endswith(".pdf"):
                     loader = PyPDFLoader(path)
                 else:
+                    skipped_files.append(filename)  # Add skipped file to the list
                     print(f"⚠️ Skipping unsupported file format: {filename}")
                     continue
 
@@ -27,6 +31,7 @@ def load_and_split_documents(data_dir="./data", chunk_size=500, chunk_overlap=10
                 docs.extend(loaded_docs)
             except Exception as e:
                 print(f"❌ Error loading the file {filename}: {e}")
+                failed_files.append(filename)  # Add the file to the failed list
                 continue
 
     if len(docs) == 0:
@@ -36,6 +41,19 @@ def load_and_split_documents(data_dir="./data", chunk_size=500, chunk_overlap=10
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     chunks = splitter.split_documents(docs)
     print(f"✅ {len(chunks)} chunks were loaded and split.")
+
+    # Print the list of skipped files
+    if skipped_files:
+        print("\n⚠️ The following files were skipped due to unsupported formats:")
+        for skipped_file in skipped_files:
+            print(f" - {skipped_file}")
+
+    # Print the list of failed files
+    if failed_files:
+        print("\n❌ The following files could not be processed due to errors:")
+        for failed_file in failed_files:
+            print(f" - {failed_file}")
+
     return chunks
 
 if __name__ == "__main__":
