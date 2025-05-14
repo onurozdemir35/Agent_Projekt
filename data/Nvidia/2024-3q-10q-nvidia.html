@@ -1,0 +1,1193 @@
+<!DOCTYPE HTML>
+<html id="d9d90b6c661421ff9ffe70e9803771da60769241" class="StudioLegacy Legacy" xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head><title>
+	NVIDIA Corporation - Financial Info - SEC Filings
+</title><meta content="text/html; charset=UTF-8" http-equiv="Content-type" /><meta content="RevealTrans(Duration=0,Transition=0)" http-equiv="Page-Enter" /><meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><meta content="width=device-width, initial-scale=1" name="viewport" /><meta content="2U6sLeFvRkE4QD2OyumieeEuGFF8dHYIileQIC7Ye1M" name="google-site-verification" /><link type="text/css" rel="stylesheet" media="all" href="//s201.q4cdn.com/141608511/files/css/jquery-ui.css" />
+<link type="text/css" rel="stylesheet" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600" />
+<link type="image/x-icon" rel="icon" media="" href="//s201.q4cdn.com/141608511/files/favicon.ico" />
+<link type="image/x-icon" rel="shortcut icon" media="" href="//s201.q4cdn.com/141608511/files/favicon.ico" />
+<link rel="stylesheet" media="print" href="//s201.q4cdn.com/141608511/files/css/print.css" />
+<!--[if lte IE 8]>
+<link id="respond-proxy" rel="respond-proxy" media="screen" href="//s201.q4cdn.com/141608511/files/js/respond-proxy.html" />
+<link id="respond-redirect" rel="respond-redirect" media="screen" href="https://investor.nvidia.com/js/respond.proxy.gif" />
+<![endif]-->
+
+<link id="htmlGlobalLinkCss" type="text/css" rel="stylesheet" media="all" href="//s201.q4cdn.com/141608511/files/css/global.css?v=38200" /><link id="htmlClientLinkCss" type="text/css" rel="stylesheet" media="all" href="//s201.q4cdn.com/141608511/files/css/client.css?v=38117" /><link id="htmlLinkPrintCss" type="text/css" rel="stylesheet" media="print" href="//s201.q4cdn.com/141608511/files/css/print.css" /><link id="htmlLinkEvergreenCss" type="text/css" rel="stylesheet" media="all" href="/css/evergreen/dist/default/evergreen.1.0.0.min.css" /><link type="text/css" rel="stylesheet" href="/GlobalBranding.ashx" /><script type="text/javascript" src="/js/module/widgets/dist/dependencies/evergreen.core.1.0.0.min.js"></script>
+<script type="text/javascript" src="/js/module/widgets/dist/dependencies/evergreen.app.1.0.0.min.js"></script>
+<script type="text/javascript" src="/js/module/widgets/dist/latest/evergreen.q4Api.min.js"></script>
+<script type="text/javascript" src="/js/module/widgets/dist/latest/evergreen.q4Pager.min.js"></script>
+<script type="text/javascript" src="/js/module/widgets/dist/latest/evergreen.q4Slideshow.min.js"></script>
+<script type="text/javascript" src="/js/module/widgets/dist/latest/evergreen.q4MultiSecFilings.min.js"></script>
+<script type="text/javascript" src="/js/typescript/dist/index.js"></script>
+<script type="text/javascript" src="/js/typescript/dist/q4CookieConsent/index.js"></script>
+<script type="text/javascript" src="//s201.q4cdn.com/141608511/files/js/onetrust/OneTrustScript.js"></script>
+<script type="text/javascript" src="//s201.q4cdn.com/141608511/files/js/q4core-semi-min.js"></script>
+<script type="text/javascript" src="//s201.q4cdn.com/141608511/files/js/q4.app.1.0.1.min.js"></script>
+<script type="text/javascript" src="//widgets.q4app.com/widgets/q4.api.1.12.6.min.js"></script>
+<script type="text/javascript" src="//s201.q4cdn.com/141608511/files/js/select2.min.js"></script>
+<script type="text/javascript" src="//s201.q4cdn.com/141608511/files/js/onetrust/AdobeDTM.js"></script>
+<!--[if lte IE 8]>
+<script type="text/javascript" src="https://investor.nvidia.com/js/respond.proxy.js"></script>
+<![endif]-->
+
+<script type="text/javascript">function GetGlobalBrandingOptions(){ return '{"dateFormat":{"moment":{"date":"MMMM D, YYYY","time":"h:mm A"},"datePicker":{"date":"MM d, yy"}}}'; }
+</script><script type="text/javascript">var trackingCodes = [];
+// The Q4 Snowplow lib which Q4Blizzard utilises also makes a call to the ip-api and sets the info in LS.
+// So it's beneficial to check there too, to prevent redundant calls to ip-api.
+var q4SnowplowLib_ipLocStorageKey = 'q4spisp';
+
+// Only load google analytics if we have tracking codes configured
+if (trackingCodes.length) {
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+}
+
+(function ($) {
+  const initialisedV4Codes = [];
+
+  function initGaTracking(isp, org) {
+    // Only load google analytics if we have tracking codes configured
+    if (!trackingCodes.length) return;
+
+    isp = isp || '(not set)';
+    org = org || '(not set)';
+    $.each(trackingCodes, function (i, data) {
+      if (data.qualifier === "Q4") {
+        ga('create', data.trackingCode, 'auto'); // Q4 tracker
+        ga('set', { 'dimension1': isp });
+        ga('set', { 'dimension2': org });
+        ga('set', 'anonymizeIp', true);
+        ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash }); // send pageview to Q4 tracker
+      } else if (data.qualifier === 'V4Client') {
+        // This is to prevent a script tag from being added more than once
+        if (initialisedV4Codes.indexOf(data.trackingCode) === -1) {
+          // Add gtag script to DOM
+          const gtagScriptTag = document.createElement("script");
+          gtagScriptTag.async = true;
+          gtagScriptTag.src = "https://www.googletagmanager.com/gtag/js?id=" + data.trackingCode;
+          document.head.appendChild(gtagScriptTag);
+
+          // Instance this gtag
+          window.dataLayer = window.dataLayer || [];
+          function gtag() {
+            dataLayer.push(arguments);
+          }
+          const secureCookieTag = 'SameSite=None;Secure';
+          gtag("js", new Date());
+          gtag('set', {cookie_flags: secureCookieTag});
+          gtag("config", data.trackingCode, { anonymize_ip: true });
+          initialisedV4Codes.push(data.trackingCode);
+        }
+      } else {
+        ga('create', data.trackingCode, 'auto', { 'name': data.qualifier }); // Client tracker
+        ga(data.qualifier + '.set', 'anonymizeIp', true);
+        ga(data.qualifier + '.send', 'pageview', { 'page': location.pathname + location.search + location.hash }); // send pageview to Client tracker
+      }
+    });
+  }
+  initGaTracking();
+
+})(jQuery || $tudio);
+
+(function () {
+  Q4Blizzard.initProps({
+    appId: "Q4WebNvidia2022cr",
+    collectorUrl: "https://" + window.location.hostname + "/x0k461",
+    cookieName: "__uxq412__",
+    organizationId: "9692a9a2-921b-4d17-b2a6-aa2a775692e9",
+    postPath: "/e6c1b/xc9",
+    productVersion: "5.153.0.3",
+    enableDOMListener: "False"
+  });
+
+  window.addEventListener("load", () => {
+    Q4Tracker.init("True");
+  });
+})();</script></head>
+<body style="margin: 0px" class="BodyBackground">
+    <input name="hdnRedirectToLoginUrl" type="hidden" id="hdnRedirectToLoginUrl" value="https://login.q4inc.com/authorize?client_id=gKrDY1E9BUSWfU7DGuW2CO4rjdskiNg7&amp;pendoQ4PId=_q4pidval_&amp;projectId=studio&amp;step=login&amp;companyName=NVIDIA+Corporation&amp;projectIdentifier=NVIDIA+Corporation&amp;mainColor=%230F5CA3&amp;scope=openid+profile+email&amp;helpUrl=https%3a%2f%2fhelp.events.q4inc.com%2fen%2fir-website.html&amp;response_type=code&amp;response_mode=query&amp;nonce=gBY97Uo1xnEpJ6NaIqlcFykySDc&amp;skipUrl=https%3a%2f%2finvestor.nvidia.com%2ffinancial-info%2fsec-filings%2fdefault.aspx&amp;userEmail=_q4lemail_&amp;redirect_uri=https%3a%2f%2fauth.platform.q4inc.com%2fauth%2fpublicAuthRedirect%3fstate%3deyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJyZXR1cm5VcmwiOiJodHRwczovL2ludmVzdG9yLm52aWRpYS5jb20vZmluYW5jaWFsLWluZm8vc2VjLWZpbGluZ3MvZGVmYXVsdC5hc3B4IiwiZXhwIjoxNzUyNDUzNDcyLjAsImlhdCI6MTc0NzE5Mzg3Mi4wLCJpc3MiOiJRNC5XZWIuUHVibGljLlNpdGUiLCJhdWQiOiJ1cHN0cmVhbS5jZG4ud2ViLnByZC5xNGluYy5jb20ifQ.rMzAUB_DHR_Hi1atPED9p01W7B4_GXmGQ4IQw9eKwTE" />
+    <a id="skip-link" href="#main-content" aria-label="Skip to main content" class="accessibility-skip-link">Skip to main content</a>
+
+    <input type="hidden" id="__RequestVerificationToken" />
+    
+    
+    <div id="pageClass" class="Sectionfinancial-info PageDefault PageFinancialInfoSECFilings LayoutOneColumnLayout Languageen-US">
+        <div class="PageDefaultInner">
+            <div id="litPageDiv" class="PageFinancialInfoSECFilings SectionFinancialInfoSECFilings ParentSection_financial-info">
+                <a name="top" aria-hidden="true" tabindex="-1"></a>
+                <form action="default.aspx" aria-label="Form" method="post" id="fmForm1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['fmForm1'];
+if (!theForm) {
+    theForm = document.fmForm1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZDSH1oVlXKNmZSXd3zYZ2Gq6ERm6jivSb4ijerOGYkuGRtePZg2&amp;t=638628044627334853" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+function GetViewType(){ return '2'; }
+function GetRevisionNumber(){ return '1'; }
+function GetLanguageId(){ return '1'; }
+function GetVersionNumber(){ return '5.153.0.3'; }
+function GetPoweredBy(){return 'q4inc';}
+function GetViewDate(){{ return ''; }}
+function GetSignature(){{ return ''; }}
+//]]>
+</script>
+
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakMh5buNcZ-t3T4nCU0ZQt96Kk4JDhdv7pdb3Agzis1zDln1EUlimtVH-8O9nKu6Z_e6vBso1&amp;t=638628044627334853" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+                    
+                    <a id="lnkPostback" aria-hidden="true" aria-label="lnkPostback" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;lnkPostback&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="display: none"></a>
+                    
+<div class="layout layout--one-column">
+    <div class="layout_inner">
+        <div class="layout_header">
+            <div class="pane pane--header grid--no-gutter">
+                <div class="pane_inner"><span class='HeaderPaneDiv'><span class='HeaderPaneDiv1'><div id="_ctrl0_ctl06_divModuleContainer" class="module module-embed module-skip">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <a class="module-skip_link" href="#maincontent">Skip to main content</a>
+        </div>
+    </div>
+</div></span><span class='HeaderPaneDiv2'><div id="_ctrl0_ctl09_divModuleContainer" class="module module-embed module-logo grid_col grid_col--1-of-5 grid_col--lc-1-of-2 grid_col--md-1-of-2 grid_col--sm-3-of-4">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <a href="https://www.nvidia.com/en-us/"><img src="//s201.q4cdn.com/141608511/files/design/NVIDIA-logo.png" alt="Artificial Intelligence Computing Leadership from NVIDIA" title="Artificial Intelligence Computing Leadership from NVIDIA"></a>
+        </div>
+    </div>
+</div></span><span class='HeaderPaneDiv3'><div id="_ctrl0_ctl12_divModuleContainer" class="module module-embed layout_toggle mobile-button">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <i class="q4-icon_menu" tabindex="0"></i>
+        </div>
+    </div>
+</div></span><span class='HeaderPaneDiv4'><div id="_ctrl0_ctl15_divModuleContainer" class="module module-html module-search-button">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            
+        </div>
+    </div>
+</div></span><span class='HeaderPaneDiv5'><div id="_ctrl0_ctl18_divModuleContainer" class="module module-search grid_col grid_col--1-of-5" role="search">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <span id="_ctrl0_ctl18_lblSearchText" class="module-search_text"></span>
+            <input name="_ctrl0$ctl18$txtSearchInput" type="text" maxlength="256" id="_ctrl0_ctl18_txtSearchInput" class="module_input module-search_input" aria-label="Search query" placeholder="Search NVIDIA" value="" onkeypress="javascript:var key; if (window.event) { key = window.event.keyCode; } else if (e) { key = e.which; } else { return true; } if (key == 13) __doPostBack(&#39;_ctrl0$ctl18$btnSearch&#39;, &#39;&#39;); " />
+            <input type="submit" name="_ctrl0$ctl18$btnSearch" value="Search" id="_ctrl0_ctl18_btnSearch" class="module_button module-search_button" />
+            
+        </div>
+    </div>
+</div></span></span></div>
+            </div>
+            <div class="pane pane--banner grid--no-gutter">
+                <div class="pane_inner"><span class='HeaderPane2Div6'><nav aria-label="Web Menu" class="nav nav--main grid_col grid_col--1-of-1"><ul class="level1">
+	<li><a href="https://nvidianews.nvidia.com/" aria-label="News">News</a></li><li class="has-children"><a href="https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx" aria-label="Events &amp; Presentations">Events &amp; Presentations</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx" aria-label="Events &amp; Presentations within the Events &amp; Presentations section">Events &amp; Presentations</a></li><li><a href="https://investor.nvidia.com/events-and-presentations/presentations/default.aspx" aria-label="Presentations within the Events &amp; Presentations section">Presentations</a></li>
+	</ul></li><li class="has-children"><a href="https://investor.nvidia.com/stock-info/stock-quote-and-chart/default.aspx" aria-label="Stock Info">Stock Info</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/stock-info/stock-quote-and-chart/default.aspx" aria-label="Stock Quote &amp; Chart within the Stock Info section">Stock Quote &amp; Chart</a></li><li><a href="https://investor.nvidia.com/stock-info/historical-price-lookup/default.aspx" aria-label="Historical Price Lookup within the Stock Info section">Historical Price Lookup</a></li><li><a href="https://investor.nvidia.com/stock-info/investment-calculator/default.aspx" aria-label="Investment Calculator within the Stock Info section">Investment Calculator</a></li><li><a href="https://investor.nvidia.com/stock-info/fundamentals/default.aspx" aria-label="Fundamentals within the Stock Info section">Fundamentals</a></li><li><a href="https://investor.nvidia.com/stock-info/analyst-coverage/default.aspx" aria-label="Analyst Coverage within the Stock Info section">Analyst Coverage</a></li>
+	</ul></li><li class="has-children expanded"><a href="https://investor.nvidia.com/financial-info/financial-reports/default.aspx" aria-label="Financial Info">Financial Info</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/financial-info/financial-reports/default.aspx" aria-label="Financial Reports within the Financial Info section">Financial Reports</a></li><li class="selected"><a href="https://investor.nvidia.com/financial-info/sec-filings/default.aspx" aria-label="SEC Filings within the Financial Info section">SEC Filings</a></li><li><a href="https://investor.nvidia.com/financial-info/quarterly-results/default.aspx" aria-label="Quarterly Results within the Financial Info section">Quarterly Results</a></li><li><a href="https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx" aria-label="Annual Reports and Proxies within the Financial Info section">Annual Reports and Proxies</a></li><li><a href="https://investor.nvidia.com/financial-info/Annual-Meeting/default.aspx" aria-label="Annual Meeting within the Financial Info section">Annual Meeting</a></li>
+	</ul></li><li><a href="https://financialinfoaiagent.nvidia.com/" target="_blank" aria-label="Financial Info AI Agent">Financial Info AI Agent</a></li><li class="has-children"><a href="https://investor.nvidia.com/governance/management-team/default.aspx" aria-label="Governance">Governance</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/governance/management-team/default.aspx" aria-label="Management Team within the Governance section">Management Team</a></li><li><a href="https://investor.nvidia.com/governance/board-of-directors/default.aspx" aria-label="Board of Directors within the Governance section">Board of Directors</a></li><li><a href="https://investor.nvidia.com/governance/governance-documents/default.aspx" aria-label="Governance Documents within the Governance section">Governance Documents</a></li><li><a href="https://investor.nvidia.com/governance/committee-composition/default.aspx" aria-label="Committee Composition within the Governance section">Committee Composition</a></li><li><a href="https://investor.nvidia.com/governance/contact-the-board/default.aspx" aria-label="Contact the Board within the Governance section">Contact the Board</a></li>
+	</ul></li><li class="has-children"><a href="https://investor.nvidia.com/investor-resources/download-library/default.aspx" aria-label="Investor Resources">Investor Resources</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/investor-resources/download-library/default.aspx" aria-label="Download Library within the Investor Resources section">Download Library</a></li><li><a href="https://investor.nvidia.com/investor-resources/contact-investor-relations/default.aspx" aria-label="Contact Investor Relations within the Investor Resources section">Contact Investor Relations</a></li><li><a href="https://investor.nvidia.com/investor-resources/request-information/default.aspx" aria-label="Request Information within the Investor Resources section">Request Information</a></li><li><a href="https://investor.nvidia.com/investor-resources/faqs/default.aspx" aria-label="FAQs within the Investor Resources section">FAQs</a></li><li><a href="https://investor.nvidia.com/investor-resources/email-alerts/default.aspx" aria-label="Email Alerts within the Investor Resources section">Email Alerts</a></li><li><a href="https://investor.nvidia.com/investor-resources/rss/default.aspx" aria-label="RSS within the Investor Resources section">RSS</a></li><li><a href="https://www.nvidia.com/en-us/gpu-accelerated-applications/" aria-label="Application Catalog within the Investor Resources section">Application Catalog</a></li>
+	</ul></li>
+</ul></nav></span><span class='HeaderPane2Div7'><nav aria-label="Web Menu" class="module-mobile-navigation"><ul class="level1">
+	<li><a href="https://nvidianews.nvidia.com/" aria-label="News">News</a></li><li class="has-children"><a href="https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx" aria-label="Events &amp; Presentations">Events &amp; Presentations</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx" aria-label="Events &amp; Presentations within the Events &amp; Presentations section">Events &amp; Presentations</a></li><li><a href="https://investor.nvidia.com/events-and-presentations/presentations/default.aspx" aria-label="Presentations within the Events &amp; Presentations section">Presentations</a></li>
+	</ul></li><li class="has-children"><a href="https://investor.nvidia.com/stock-info/stock-quote-and-chart/default.aspx" aria-label="Stock Info">Stock Info</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/stock-info/stock-quote-and-chart/default.aspx" aria-label="Stock Quote &amp; Chart within the Stock Info section">Stock Quote &amp; Chart</a></li><li><a href="https://investor.nvidia.com/stock-info/historical-price-lookup/default.aspx" aria-label="Historical Price Lookup within the Stock Info section">Historical Price Lookup</a></li><li><a href="https://investor.nvidia.com/stock-info/investment-calculator/default.aspx" aria-label="Investment Calculator within the Stock Info section">Investment Calculator</a></li><li><a href="https://investor.nvidia.com/stock-info/fundamentals/default.aspx" aria-label="Fundamentals within the Stock Info section">Fundamentals</a></li><li><a href="https://investor.nvidia.com/stock-info/analyst-coverage/default.aspx" aria-label="Analyst Coverage within the Stock Info section">Analyst Coverage</a></li>
+	</ul></li><li class="has-children expanded"><a href="https://investor.nvidia.com/financial-info/financial-reports/default.aspx" aria-label="Financial Info">Financial Info</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/financial-info/financial-reports/default.aspx" aria-label="Financial Reports within the Financial Info section">Financial Reports</a></li><li class="selected"><a href="https://investor.nvidia.com/financial-info/sec-filings/default.aspx" aria-label="SEC Filings within the Financial Info section">SEC Filings</a></li><li><a href="https://investor.nvidia.com/financial-info/quarterly-results/default.aspx" aria-label="Quarterly Results within the Financial Info section">Quarterly Results</a></li><li><a href="https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx" aria-label="Annual Reports and Proxies within the Financial Info section">Annual Reports and Proxies</a></li><li><a href="https://investor.nvidia.com/financial-info/Annual-Meeting/default.aspx" aria-label="Annual Meeting within the Financial Info section">Annual Meeting</a></li>
+	</ul></li><li><a href="https://financialinfoaiagent.nvidia.com/" target="_blank" aria-label="Financial Info AI Agent">Financial Info AI Agent</a></li><li class="has-children"><a href="https://investor.nvidia.com/governance/management-team/default.aspx" aria-label="Governance">Governance</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/governance/management-team/default.aspx" aria-label="Management Team within the Governance section">Management Team</a></li><li><a href="https://investor.nvidia.com/governance/board-of-directors/default.aspx" aria-label="Board of Directors within the Governance section">Board of Directors</a></li><li><a href="https://investor.nvidia.com/governance/governance-documents/default.aspx" aria-label="Governance Documents within the Governance section">Governance Documents</a></li><li><a href="https://investor.nvidia.com/governance/committee-composition/default.aspx" aria-label="Committee Composition within the Governance section">Committee Composition</a></li><li><a href="https://investor.nvidia.com/governance/contact-the-board/default.aspx" aria-label="Contact the Board within the Governance section">Contact the Board</a></li>
+	</ul></li><li class="has-children"><a href="https://investor.nvidia.com/investor-resources/download-library/default.aspx" aria-label="Investor Resources">Investor Resources</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/investor-resources/download-library/default.aspx" aria-label="Download Library within the Investor Resources section">Download Library</a></li><li><a href="https://investor.nvidia.com/investor-resources/contact-investor-relations/default.aspx" aria-label="Contact Investor Relations within the Investor Resources section">Contact Investor Relations</a></li><li><a href="https://investor.nvidia.com/investor-resources/request-information/default.aspx" aria-label="Request Information within the Investor Resources section">Request Information</a></li><li><a href="https://investor.nvidia.com/investor-resources/faqs/default.aspx" aria-label="FAQs within the Investor Resources section">FAQs</a></li><li><a href="https://investor.nvidia.com/investor-resources/email-alerts/default.aspx" aria-label="Email Alerts within the Investor Resources section">Email Alerts</a></li><li><a href="https://investor.nvidia.com/investor-resources/rss/default.aspx" aria-label="RSS within the Investor Resources section">RSS</a></li><li><a href="https://www.nvidia.com/en-us/gpu-accelerated-applications/" aria-label="Application Catalog within the Investor Resources section">Application Catalog</a></li>
+	</ul></li>
+</ul></nav></span></div>
+            </div>
+            <div class="pane pane--navigation">
+                <div class="pane_inner"><span class='NavigationPaneDiv8'><div id="_ctrl0_ctl27_divModuleContainer" class="module module-page-title module-page-banner">
+    <div class="module_container module_container--outer">
+        <div class="module_container module_container--inner">
+            <h1 class="module_title">SEC Filings</h1>
+        </div>
+    </div>
+</div></span><span class='NavigationPaneDiv9'><nav aria-label="Web Menu" class="nav nav--secondary"><ul class="level1">
+	<li><a href="https://nvidianews.nvidia.com/" aria-label="News">News</a></li><li class="has-children"><a href="https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx" aria-label="Events &amp; Presentations">Events &amp; Presentations</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx" aria-label="Events &amp; Presentations within the Events &amp; Presentations section">Events &amp; Presentations</a></li><li><a href="https://investor.nvidia.com/events-and-presentations/presentations/default.aspx" aria-label="Presentations within the Events &amp; Presentations section">Presentations</a></li>
+	</ul></li><li class="has-children"><a href="https://investor.nvidia.com/stock-info/stock-quote-and-chart/default.aspx" aria-label="Stock Info">Stock Info</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/stock-info/stock-quote-and-chart/default.aspx" aria-label="Stock Quote &amp; Chart within the Stock Info section">Stock Quote &amp; Chart</a></li><li><a href="https://investor.nvidia.com/stock-info/historical-price-lookup/default.aspx" aria-label="Historical Price Lookup within the Stock Info section">Historical Price Lookup</a></li><li><a href="https://investor.nvidia.com/stock-info/investment-calculator/default.aspx" aria-label="Investment Calculator within the Stock Info section">Investment Calculator</a></li><li><a href="https://investor.nvidia.com/stock-info/fundamentals/default.aspx" aria-label="Fundamentals within the Stock Info section">Fundamentals</a></li><li><a href="https://investor.nvidia.com/stock-info/analyst-coverage/default.aspx" aria-label="Analyst Coverage within the Stock Info section">Analyst Coverage</a></li>
+	</ul></li><li class="has-children expanded"><a href="https://investor.nvidia.com/financial-info/financial-reports/default.aspx" aria-label="Financial Info">Financial Info</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/financial-info/financial-reports/default.aspx" aria-label="Financial Reports within the Financial Info section">Financial Reports</a></li><li class="selected"><a href="https://investor.nvidia.com/financial-info/sec-filings/default.aspx" aria-label="SEC Filings within the Financial Info section">SEC Filings</a></li><li><a href="https://investor.nvidia.com/financial-info/quarterly-results/default.aspx" aria-label="Quarterly Results within the Financial Info section">Quarterly Results</a></li><li><a href="https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx" aria-label="Annual Reports and Proxies within the Financial Info section">Annual Reports and Proxies</a></li><li><a href="https://investor.nvidia.com/financial-info/Annual-Meeting/default.aspx" aria-label="Annual Meeting within the Financial Info section">Annual Meeting</a></li>
+	</ul></li><li><a href="https://financialinfoaiagent.nvidia.com/" target="_blank" aria-label="Financial Info AI Agent">Financial Info AI Agent</a></li><li class="has-children"><a href="https://investor.nvidia.com/governance/management-team/default.aspx" aria-label="Governance">Governance</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/governance/management-team/default.aspx" aria-label="Management Team within the Governance section">Management Team</a></li><li><a href="https://investor.nvidia.com/governance/board-of-directors/default.aspx" aria-label="Board of Directors within the Governance section">Board of Directors</a></li><li><a href="https://investor.nvidia.com/governance/governance-documents/default.aspx" aria-label="Governance Documents within the Governance section">Governance Documents</a></li><li><a href="https://investor.nvidia.com/governance/committee-composition/default.aspx" aria-label="Committee Composition within the Governance section">Committee Composition</a></li><li><a href="https://investor.nvidia.com/governance/contact-the-board/default.aspx" aria-label="Contact the Board within the Governance section">Contact the Board</a></li>
+	</ul></li><li class="has-children"><a href="https://investor.nvidia.com/investor-resources/download-library/default.aspx" aria-label="Investor Resources">Investor Resources</a><ul class="level2">
+		<li><a href="https://investor.nvidia.com/investor-resources/download-library/default.aspx" aria-label="Download Library within the Investor Resources section">Download Library</a></li><li><a href="https://investor.nvidia.com/investor-resources/contact-investor-relations/default.aspx" aria-label="Contact Investor Relations within the Investor Resources section">Contact Investor Relations</a></li><li><a href="https://investor.nvidia.com/investor-resources/request-information/default.aspx" aria-label="Request Information within the Investor Resources section">Request Information</a></li><li><a href="https://investor.nvidia.com/investor-resources/faqs/default.aspx" aria-label="FAQs within the Investor Resources section">FAQs</a></li><li><a href="https://investor.nvidia.com/investor-resources/email-alerts/default.aspx" aria-label="Email Alerts within the Investor Resources section">Email Alerts</a></li><li><a href="https://investor.nvidia.com/investor-resources/rss/default.aspx" aria-label="RSS within the Investor Resources section">RSS</a></li><li><a href="https://www.nvidia.com/en-us/gpu-accelerated-applications/" aria-label="Application Catalog within the Investor Resources section">Application Catalog</a></li>
+	</ul></li>
+</ul></nav></span></div>
+            </div>
+        </div>
+        <div class="layout_content" id="maincontent">
+            <div class="pane pane--breadcrumb">
+                <div class="pane_inner"></div>
+            </div>
+            <div class="pane pane--left">
+                <div class="pane_inner"><span class='LeftPaneDiv'></span></div>
+            </div>
+            <div class="pane pane--content">
+                <div class="pane_inner"><span class='ContentPaneDiv'><span class='ContentPaneDiv1'><div id="_ctrl0_ctl75_divModuleContainer" class="module module-embed module-sec module-sec--widget background--grey">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <div class="module_rss module_rss--top">
+    <a href="/rss/SECFiling.aspx?Exchange=CIK&amp;Symbol=0001045810" id="_ctrl0_ctl78_hrefRssLinkTop" class="module_rss-link" target="_blank">
+        <i class="q4-icon_rss" aria-hidden="true"></i>
+        <span class="sr-only">SEC RSS Feed (opens in new window)</span>
+    </a>
+</div>
+<div class="module_options">
+    <label class="module_options-label" for="SecYearSelect">Select year:</label>
+    <select class="dropdown module_options-select module-sec_year-select" id="SecYearSelect"></select>
+    <label class="module_options-label" for="SecFilingType">Filter filing type:</label>
+    <select class="dropdown module_options-select module-sec_type-select" id="SecFilingType">
+        <option selected="selected" value="">All Form Types</option>
+        <option value="1,4">Annual Filings</option>
+        <option value="2">Quarterly Filings</option>
+        <option value="9,40">Current Reports</option>
+        <option value="11,17">Proxy Filings</option>
+        <option value="41">Registration Statements</option>
+        <option value="13">Section 16 Filings</option>
+        <option value="3,20,21,30,33,34,35,36,37,42">Other</option>
+    </select>
+</div>
+<div class="module_header grid--no-gutter">
+    <span class="module_header-text module-sec_date grid_col grid_col--2-of-12 grid_col--md-1-of-1">Date</span>
+    <span class="module_header-text module-sec_filing grid_col grid_col--2-of-12 grid_col--md-1-of-1">Filing Type</span>
+    <span class="module_header-text module-sec_description grid_col grid_col--5-of-12 grid_col--md-1-of-1">Filing Description</span>
+    <span class="module_header-text module-sec_download-item grid_col grid_col--3-of-12 grid_col--md-1-of-1">Download / View</span>
+</div>
+<div class="module_container module_container--content grid--no-gutter grid--no-space"></div>
+
+<script >
+    $('.module-sec--widget .module_container--inner').sec({
+        exchange: 'CIK',
+        symbol: '0001045810',
+        sortAscending: false,
+        dateFormat: 'M dd, yy',
+        itemLoadingMessage: '<p class="module_loader"><i class="q4-icon_spinner"></i><span class="sr-only">Loading items...</span></p>',
+        itemNotFoundMessage: '<p><i class="q4-icon_warning-line"></i> There are no items matching your query.</p>',
+        yearSelect: '.module-sec_year-select',
+        yearContainer: '.module-sec_year-select',
+        yearTemplate: (
+            '<option value="{{value}}">{{year}}</option>'
+        ),
+        itemContainer: '.module_container--content',
+        itemTemplate: (
+            '<div class="module_item">' +
+                '<div class="module-sec_date grid_col grid_col--2-of-12 grid_col--md-1-of-1">' +
+                    '<span class="module-sec_date-text">{{date}}</span>' +
+                '</div>' +
+                '<div class="module-sec_filing grid_col grid_col--2-of-12 grid_col--md-1-of-1">' +
+                    '<span class="sr-only">Form</span>' +
+                    '<a class="module-sec_filing-link" href="{{url}}">{{type}}</a>' +
+                '</div>' +
+                '<div class="module-sec_description grid_col grid_col--5-of-12 grid_col--md-1-of-1">' +
+                    '<span class="module-sec_description-text">{{description}}</span>' +
+                '</div>' +
+                '<ul class="module-sec_download-list grid_col grid_col--3-of-12 grid_col--md-1-of-1">' +
+                    '{{#docs}}' +
+                        '{{#docUrl}}<li class="module-sec_download-list-item module-sec_{{docType}}">' +
+                            '<a href="{{docUrl}}" target="_blank">' +
+                                '<i class="q4-icon_file-{{docType}}-line" aria-hidden="true"></i>' +
+                                '<span class="sr-only">{{docType}} Format Download (opens in new window)</span>' +
+                            '</a>' +
+                        '</li>{{/docUrl}}' +
+                    '{{/docs}}' +
+                '</ul>' +
+            '</div>'
+        ),
+        
+        itemLoadingMessage: '<p class="module_loader"><i class="q4-icon_spinner"></i><span class="sr-only">Loading items...</span></p>',
+        beforeRenderItems: function(event, data) {
+            var invalidItemIDs = [15739033]; // items to remove by ID
+            var invalidItemTypes = [];	 // item types to remove
+
+            // remove unwanted items
+            for (j = data.items.length - 1; j >= 0; j--) {
+                if (invalidItemIDs.includes(data.items[j].id) || invalidItemTypes.includes(data.items[j].id)) data.items.splice(j, 1);
+            }
+            
+            $.each(data.items, function(i, item) {
+                $.each(item.docs, function(idx, doc) {
+                    switch (doc.docType) {
+                        case 'CONVPDF':
+                            doc.docType = 'pdf'
+                            break;
+                        case 'RTF':
+                        case 'CONVTEXT':
+                            doc.docType = 'word'
+                            break;
+                        case 'XLS':
+                            doc.docType = 'excel'
+                            break;
+                        case 'HTML':
+                        case 'XBRL_HTML':
+                            doc.docType = 'html'
+                            break;
+                        case 'XBRL':
+                            doc.docType = 'zip'
+                    }
+                });
+            });
+        },
+        itemsComplete: function() {
+        },
+        complete: function(e) {
+            var $widget = $(this);
+
+            $widget.find('.module-sec_type-select').on('change', function() {
+                var types = $(this).val().split(',');
+                $widget.sec('option', 'filingTypes', types);
+                $widget.sec('reloadItems');
+            });
+             $(".module-sec--widget  select").select2({
+                minimumResultsForSearch: Infinity
+                    // dropdownParent: null
+            });
+
+            // If browser back cache is enabled, upon hitting the back button from the details page the filing type will be selected
+            // This will filter the data after the widget loads to show the correct filings
+            if ( $('#SecFilingType option:selected').val().length ) {
+                $widget.sec('option', 'filingTypes', $('#SecFilingType option:selected').val().split(','));
+                $widget.sec('reloadItems');
+            }
+        }
+    });
+</script>
+        </div>
+    </div>
+</div></span></span></div>
+            </div>
+            <div class="pane pane--right">
+                <div class="pane_inner"><span class='RightPaneDiv'></span></div>
+            </div>
+        </div>
+        <div class="layout_footer" role="contentinfo">
+            <div class="pane pane--footer grid--no-gutter">
+                <div class="pane_inner"><span class='FooterPaneDiv'><span class='FooterPaneDiv10'><div id="_ctrl0_ctl33_RightBlock" class="hidden"></div>
+<div id="_ctrl0_ctl33_divModuleContainer" class="module module-links module-quick-links big fbox grid_col grid_col--2-of-6 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        <h2 id="_ctrl0_ctl33_lblTitle" class="module_title"><span id="_ctrl0_ctl33_lblModuleTitle" class="ModuleTitle">Quick Links</span></h2>
+        <div class="module_container module_container--inner">
+            <ul id="_ctrl0_ctl33_qlList" class="module-links_list">
+                
+                        <li id="_ctrl0_ctl33_QuickLinkList_ctl00_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/investor-resources/email-alerts/default.aspx" id="_ctrl0_ctl33_QuickLinkList_ctl00_link" class="module-links_list-item-link" target="_self">Email Alerts</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl33_QuickLinkList_ctl01_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://investor.nvidia.com/investor-resources/rss/default.aspx" id="_ctrl0_ctl33_QuickLinkList_ctl01_link" class="module-links_list-item-link" target="_self">RSS</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl33_QuickLinkList_ctl02_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/investor-resources/request-information/default.aspx" id="_ctrl0_ctl33_QuickLinkList_ctl02_link" class="module-links_list-item-link" target="_self">Request Printed Materials</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl33_QuickLinkList_ctl03_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://investor.nvidia.com/investor-resources/download-library/default.aspx" id="_ctrl0_ctl33_QuickLinkList_ctl03_link" class="module-links_list-item-link" target="_self">Download Library</a>
+                            
+                        </li>
+                    
+            </ul>
+        </div>
+    </div>
+</div></span><span class='FooterPaneDiv11'><div id="_ctrl0_ctl36_divModuleContainer" class="module module-subscribe module-subscribe--fancy module-subscribe--footer fbox grid_col grid_col--2-of-6 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        <h2 id="_ctrl0_ctl36_lblTitle" class="module_title"><span id="_ctrl0_ctl36_lblModuleTitle" class="ModuleTitle">Email Alerts</span><span id="_ctrl0_ctl36_lblHelpPage"></span></h2>
+        <div class="module_container module_container--inner">
+            <div class="module_introduction"><span id="_ctrl0_ctl36_lblIntroText" class="IntroText"><p>To receive notifications via email, enter your email address and select at least one subscription below. After submitting your information, you will receive an email. You must click the link in the email to activate your subscription. You can sign up for additional subscriptions at any time.</p><p class="module_required-text">* Required</p></span></div>
+            <div id="_ctrl0_ctl36_validationsummary" class="module_error-container" style="display:none;">
+
+</div>
+
+         <div class="module_wrap-mail">
+            <table class="module-subscribe_table module-subscribe_form">
+
+                
+                
+                <tr id="_ctrl0_ctl36_rowEmailAddress" class="module-subscribe_table-input module-subscribe_email">
+	<td>
+                        <label for="_ctrl0_ctl36_txtEmail" id="_ctrl0_ctl36_lblEmailAddressText">Email Address</label>
+                        <span id="_ctrl0_ctl36_lblRequiredEmailAddress" class="module_required">*</span>
+                        <input name="_ctrl0$ctl36$txtEmail" type="text" maxlength="128" id="_ctrl0_ctl36_txtEmail" class="module_input" placeholder="Email Address" />
+                        <span id="_ctrl0_ctl36_regexEmailValidator1" style="display:none;"></span>
+                        <span id="_ctrl0_ctl36_reqvalEmailValidator1" style="display:none;"></span>
+                    </td>
+</tr>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+            </table>
+            
+            
+            
+            
+            <div class="module_actions">
+                <input type="submit" name="_ctrl0$ctl36$btnSubmit" value="Subscribe" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;_ctrl0$ctl36$btnSubmit&quot;, &quot;&quot;, true, &quot;6adf493f-69f6-411b-ab46-304b9bf3d14d&quot;, &quot;&quot;, false, false))" id="_ctrl0_ctl36_btnSubmit" class="button module-subscribe_submit-button" />
+            </div>
+        </div>
+        <table id="_ctrl0_ctl36_tableMailingLists" class="module-subscribe_table module-subscribe_mailing-list">
+	<tr id="_ctrl0_ctl36_rowMailingListLabel" class="module-subscribe_table-input module-subscribe_list-header">
+		<td>
+                        <label for="_ctrl0_ctl36_chkLists" id="_ctrl0_ctl36_lblMailingListsText">Mailing Lists</label>
+                        <span id="_ctrl0_ctl36_lblRequiredMailingLists" class="module_required">*</span>
+                    </td>
+	</tr>
+	<tr id="_ctrl0_ctl36_rowMailingLists" class="module-subscribe_table-input module-subscribe_list">
+		<td>
+                        <table id="_ctrl0_ctl36_chkLists">
+			<tr>
+				<td><input id="_ctrl0_ctl36_chkLists_0" type="checkbox" name="_ctrl0$ctl36$chkLists$0" value="33" /><label for="_ctrl0_ctl36_chkLists_0">SEC Filing</label></td>
+			</tr><tr>
+				<td><input id="_ctrl0_ctl36_chkLists_1" type="checkbox" name="_ctrl0$ctl36$chkLists$1" value="34" /><label for="_ctrl0_ctl36_chkLists_1">Presentation</label></td>
+			</tr><tr>
+				<td><input id="_ctrl0_ctl36_chkLists_2" type="checkbox" name="_ctrl0$ctl36$chkLists$2" value="35" /><label for="_ctrl0_ctl36_chkLists_2">Event</label></td>
+			</tr><tr>
+				<td><input id="_ctrl0_ctl36_chkLists_3" type="checkbox" name="_ctrl0$ctl36$chkLists$3" value="36" /><label for="_ctrl0_ctl36_chkLists_3">End of Day Stock Quote</label></td>
+			</tr>
+		</table>
+                        
+                        <span id="_ctrl0_ctl36_cusvalMailingListsValidator" style="display:none;"></span>
+                    </td>
+	</tr>
+</table>
+
+            <div id="_ctrl0_ctl36_UCCaptcha_divModuleContainer" class="CaptchaContainer">
+<table id="_ctrl0_ctl36_UCCaptcha_Table1" cellpadding="0" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td colspan="2">&nbsp;</td>
+	</tr>
+	<tr>
+		<td colspan="2"><img src="https://investor.nvidia.com/q4api/v4/captcha?clientId=_ctrl0_ctl36_UCCaptcha" id="_ctrl0_ctl36_UCCaptcha_Image1" /></td>
+	</tr>
+	<tr>
+		<td colspan="2"><b>Enter the code shown above.</b></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input name="_ctrl0$ctl36$UCCaptcha$txtCode" type="text" id="_ctrl0_ctl36_UCCaptcha_txtCode" /><span id="_ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1" style="display:none;">*</span>
+		</td>
+	</tr>
+</table>
+
+</div>
+        </div>
+    </div>
+</div>
+<div id="_ctrl0_ctl36_divEditSubscriberConfirmation" class="module module-subscribe module_confirmation-container" style="DISPLAY:none;">
+    <div class="module_container module_container--outer">
+        <h2 class="module_title">Email Alert Sign Up Confirmation</h2>
+        <div class="module_container module_container--inner">
+            
+        </div>
+    </div>
+</div><span id="_ctrl0_ctl36_ctl19" style="display:none;"></span></span><span class='FooterPaneDiv12'><div id="_ctrl0_ctl39_divModuleContainer" class="module module-html module-contact fbox grid_col grid_col--2-of-6 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        <h2 id="_ctrl0_ctl39_lblTitle" class="module_title"><span id="_ctrl0_ctl39_lblModuleTitle" class="ModuleTitle">Investor Contact</span></h2>
+        <div class="module_container module_container--inner">
+            <ul>
+    <li>
+        <p>2788 San Tomas Expressway
+            <br> Santa Clara, CA 95051
+        </p>
+    </li>
+    <li><a href="/investor-resources/contact-investor-relations/default.aspx">Contact Investor Relations</a></li>
+</ul>
+        </div>
+    </div>
+</div></span><span class='FooterPaneDiv13'><div id="_ctrl0_ctl42_RightBlock" class="hidden"></div>
+<div id="_ctrl0_ctl42_divModuleContainer" class="module module-links module-quick-links fbox grid_col grid_col--2-of-6 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        <h2 id="_ctrl0_ctl42_lblTitle" class="module_title"><span id="_ctrl0_ctl42_lblModuleTitle" class="ModuleTitle">Investor Resources</span></h2>
+        <div class="module_container module_container--inner">
+            <ul id="_ctrl0_ctl42_qlList" class="module-links_list">
+                
+                        <li id="_ctrl0_ctl42_QuickLinkList_ctl00_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/investor-resources/download-library/default.aspx" id="_ctrl0_ctl42_QuickLinkList_ctl00_link" class="module-links_list-item-link" target="_self">Download Library</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl42_QuickLinkList_ctl01_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://investor.nvidia.com/investor-resources/request-information/default.aspx" id="_ctrl0_ctl42_QuickLinkList_ctl01_link" class="module-links_list-item-link" target="_self">Request Information</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl42_QuickLinkList_ctl02_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/investor-resources/faqs/default.aspx" id="_ctrl0_ctl42_QuickLinkList_ctl02_link" class="module-links_list-item-link" target="_self">FAQs</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl42_QuickLinkList_ctl03_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://investor.nvidia.com/investor-resources/email-alerts/default.aspx" id="_ctrl0_ctl42_QuickLinkList_ctl03_link" class="module-links_list-item-link" target="_self">Email Alerts</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl42_QuickLinkList_ctl04_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/investor-resources/rss/default.aspx" id="_ctrl0_ctl42_QuickLinkList_ctl04_link" class="module-links_list-item-link" target="_self">RSS</a>
+                            
+                        </li>
+                    
+            </ul>
+        </div>
+    </div>
+</div></span><span class='FooterPaneDiv14'><div id="_ctrl0_ctl45_RightBlock" class="hidden"></div>
+<div id="_ctrl0_ctl45_divModuleContainer" class="module module-links module-quick-links fbox grid_col grid_col--2-of-6 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        <h2 id="_ctrl0_ctl45_lblTitle" class="module_title"><span id="_ctrl0_ctl45_lblModuleTitle" class="ModuleTitle">Stock Info</span></h2>
+        <div class="module_container module_container--inner">
+            <ul id="_ctrl0_ctl45_qlList" class="module-links_list">
+                
+                        <li id="_ctrl0_ctl45_QuickLinkList_ctl00_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/stock-info/stock-quote-and-chart/default.aspx" id="_ctrl0_ctl45_QuickLinkList_ctl00_link" class="module-links_list-item-link" target="_self">Stock Quote & Chart</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl45_QuickLinkList_ctl01_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://investor.nvidia.com/stock-info/historical-price-lookup/default.aspx" id="_ctrl0_ctl45_QuickLinkList_ctl01_link" class="module-links_list-item-link" target="_self">Historical Price Lookup</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl45_QuickLinkList_ctl02_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/stock-info/investment-calculator/default.aspx" id="_ctrl0_ctl45_QuickLinkList_ctl02_link" class="module-links_list-item-link" target="_self">Investment Calculator</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl45_QuickLinkList_ctl03_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://investor.nvidia.com/stock-info/fundamentals/default.aspx" id="_ctrl0_ctl45_QuickLinkList_ctl03_link" class="module-links_list-item-link" target="_self">Fundamentals</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl45_QuickLinkList_ctl04_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/stock-info/analyst-coverage/default.aspx" id="_ctrl0_ctl45_QuickLinkList_ctl04_link" class="module-links_list-item-link" target="_self">Analyst Coverage</a>
+                            
+                        </li>
+                    
+            </ul>
+        </div>
+    </div>
+</div></span><span class='FooterPaneDiv15'><div id="_ctrl0_ctl48_RightBlock" class="hidden"></div>
+<div id="_ctrl0_ctl48_divModuleContainer" class="module module-links module-quick-links fbox grid_col grid_col--2-of-6 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        <h2 id="_ctrl0_ctl48_lblTitle" class="module_title"><span id="_ctrl0_ctl48_lblModuleTitle" class="ModuleTitle">Governance</span></h2>
+        <div class="module_container module_container--inner">
+            <ul id="_ctrl0_ctl48_qlList" class="module-links_list">
+                
+                        <li id="_ctrl0_ctl48_QuickLinkList_ctl00_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/governance/management-team/default.aspx" id="_ctrl0_ctl48_QuickLinkList_ctl00_link" class="module-links_list-item-link" target="_self">Management Team</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl48_QuickLinkList_ctl01_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://investor.nvidia.com/governance/board-of-directors/default.aspx" id="_ctrl0_ctl48_QuickLinkList_ctl01_link" class="module-links_list-item-link" target="_self">Board of Directors</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl48_QuickLinkList_ctl02_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/governance/governance-documents/default.aspx" id="_ctrl0_ctl48_QuickLinkList_ctl02_link" class="module-links_list-item-link" target="_self">Governance Documents</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl48_QuickLinkList_ctl03_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://investor.nvidia.com/governance/committee-composition/default.aspx" id="_ctrl0_ctl48_QuickLinkList_ctl03_link" class="module-links_list-item-link" target="_self">Committee Composition</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl48_QuickLinkList_ctl04_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/governance/contact-the-board/default.aspx" id="_ctrl0_ctl48_QuickLinkList_ctl04_link" class="module-links_list-item-link" target="_self">Contact the Board</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl48_QuickLinkList_ctl05_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://www.nvidia.com/en-us/sustainability/" id="_ctrl0_ctl48_QuickLinkList_ctl05_link" class="module-links_list-item-link" target="_blank">Corporate Sustainability</a>
+                            
+                        </li>
+                    
+            </ul>
+        </div>
+    </div>
+</div></span><span class='FooterPaneDiv16'><div id="_ctrl0_ctl51_RightBlock" class="hidden"></div>
+<div id="_ctrl0_ctl51_divModuleContainer" class="module module-links module-quick-links module-quick-links-news fbox grid_col grid_col--2-of-6 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        <h2 id="_ctrl0_ctl51_lblTitle" class="module_title"><span id="_ctrl0_ctl51_lblModuleTitle" class="ModuleTitle">News</span></h2>
+        <div class="module_container module_container--inner">
+            <ul id="_ctrl0_ctl51_qlList" class="module-links_list">
+                
+                        <li id="_ctrl0_ctl51_QuickLinkList_ctl00_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://nvidianews.nvidia.com/" id="_ctrl0_ctl51_QuickLinkList_ctl00_link" class="module-links_list-item-link" target="_blank">News</a>
+                            
+                        </li>
+                    
+            </ul>
+        </div>
+    </div>
+</div></span><span class='FooterPaneDiv17'><div id="_ctrl0_ctl54_RightBlock" class="hidden"></div>
+<div id="_ctrl0_ctl54_divModuleContainer" class="module module-links module-quick-links fbox grid_col grid_col--2-of-6 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        <h2 id="_ctrl0_ctl54_lblTitle" class="module_title"><span id="_ctrl0_ctl54_lblModuleTitle" class="ModuleTitle">Events & Presentations</span></h2>
+        <div class="module_container module_container--inner">
+            <ul id="_ctrl0_ctl54_qlList" class="module-links_list">
+                
+                        <li id="_ctrl0_ctl54_QuickLinkList_ctl00_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/events-and-presentations/events-and-presentations/default.aspx" id="_ctrl0_ctl54_QuickLinkList_ctl00_link" class="module-links_list-item-link" target="_self">Events & Presentations</a>
+                            
+                        </li>
+                    
+            </ul>
+        </div>
+    </div>
+</div></span><span class='FooterPaneDiv18'><div id="_ctrl0_ctl57_RightBlock" class="hidden"></div>
+<div id="_ctrl0_ctl57_divModuleContainer" class="module module-links module-quick-links fbox grid_col grid_col--2-of-6 grid_col--md-1-of-1">
+    <div class="module_container module_container--outer">
+        <h2 id="_ctrl0_ctl57_lblTitle" class="module_title"><span id="_ctrl0_ctl57_lblModuleTitle" class="ModuleTitle">Financial Info</span></h2>
+        <div class="module_container module_container--inner">
+            <ul id="_ctrl0_ctl57_qlList" class="module-links_list">
+                
+                        <li id="_ctrl0_ctl57_QuickLinkList_ctl00_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/financial-info/financial-reports/default.aspx" id="_ctrl0_ctl57_QuickLinkList_ctl00_link" class="module-links_list-item-link" target="_self">Financial Reports</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl57_QuickLinkList_ctl01_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://investor.nvidia.com/financial-info/sec-filings/default.aspx" id="_ctrl0_ctl57_QuickLinkList_ctl01_link" class="module-links_list-item-link" target="_self">SEC Filings</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl57_QuickLinkList_ctl02_liQuickLink" class="QuickLinkRow">
+                            
+                            
+                            <a href="https://investor.nvidia.com/financial-info/quarterly-results/default.aspx" id="_ctrl0_ctl57_QuickLinkList_ctl02_link" class="module-links_list-item-link" target="_self">Quarterly Results</a>
+                            
+                        </li>
+                    
+                        <li id="_ctrl0_ctl57_QuickLinkList_ctl03_liQuickLink" class="QuickLinkRowAlt">
+                            
+                            
+                            <a href="https://investor.nvidia.com/financial-info/annual-reports-and-proxies/default.aspx" id="_ctrl0_ctl57_QuickLinkList_ctl03_link" class="module-links_list-item-link" target="_self">Annual Reports and Proxies</a>
+                            
+                        </li>
+                    
+            </ul>
+        </div>
+    </div>
+</div></span><span class='FooterPaneDiv19'><div id="_ctrl0_ctl60_divModuleContainer" class="module module-html module-social-subscribe">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <div class="left-wrap grid_col grid_col--4-of-6 grid_col--md-1-of-1">
+    <div class="subscribe-logo">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 36" height="36" width="48">
+            <image xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAkCAMAAAD4m0k4AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABnlBMVEWHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgCHwgAAAADqIFB3AAAAiHRSTlMAPqKqqKucL9zD8v383e77xqnO2fBFYfRSbfUDDgIPDF6QUA0SWJMIQI4qAQQznT8XHW7k6DEKadYFCUq3z1kGMqPt6XokK4fz55glwVQLX828VR6L4PeUNT2h/td9FUmv+tIWdtukcdCsTmU0md9/iY8HWr60TYLl2kOt+DoaE0djybDCPJ8umjQepgAAAAFiS0dEiRxhJswAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQfgChgTJSW4Gs96AAABYklEQVQ4y2NgZGJmIRqwsrEzcHSQBDgZuDo6uHmIBNwdHbwMfB38AoKsRAEWIZ4OYaAGEVEGIoGYOFgDlwSxGiSlKNAgLYNXqaycLKoGeQVFJWXc6lVU1STUUTRodHTwaGppY1euo6vX0SGii6JBXwQYKcJiBtjUGxoZAyVNTFE0mJlbgOJRUN8SXbmVtQ1IxtbOHi2UHBydgOLOLq6o6t3cPYDCnl7eWIJVTABklI+vH5Jn/QOAQvyBQdjjITgkFCgdFh4BUx8ZFQ0UiImNwxlx8QmJQBVJ5slg/SmpQI5UWiS+mFZJzwC5KxOYvLLAnhXItiKQNHJyQb7Myy9wBoVBoRbhtFRUXALLLaVlqFGJK/F5l1eAlFemBONJfKigqpq/hqkWQxhP8q5T9a1nIEUDdjCqYVBpEGkgVkMjRAN/E2szUYA5A1QYg4t7bqIATzSouE8lrUJpYWhtI6XKym0HAEPUyge2kF93AAAAAElFTkSuQmCC" height="36" width="48" data-name="icon mail copy" id="icon_mail_copy"></image>
+        </svg>
+    </div>
+    <div class="subscribe-text">
+        <span>Sign up for NVIDIA News</span>
+    </div>
+    <div class="wrap-button">
+        <div class="text-right noPadding noPadding mobile-align dark">
+            <a class="link-btn btn-manual lb_iframe brand-green regular-btn button" data-analytics="" data-href="#subscribe-form" href="https://nvidianews.nvidia.com/alerts" target="_blank">
+            <div class="btn">Subscribe</div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="right-wrap grid_col grid_col--2-of-6 grid_col--md-1-of-1">
+    <div class="page-footer__social__label">Follow NVIDIA</div>
+    <a target="_blank" class="page-footer__social__link facebook" href="https://www.facebook.com/NVIDIA/">
+        <img title="Facebook" src="//s201.q4cdn.com/141608511/files/design/social/Facebook-icon.svg" class="socialIcon">
+    </a>
+    <a target="_blank" class="page-footer__social__link" href="https://twitter.com/nvidia">
+        <img title="Twitter" src="//s201.q4cdn.com/141608511/files/design/social/Twitter-icon.svg" class="socialIcon">
+    </a>
+    <a target="_blank" class="page-footer__social__link" href="https://www.youtube.com/user/nvidia">
+        <img title="You Tube" src="//s201.q4cdn.com/141608511/files/design/social/You-Tube-icon.svg" class="socialIcon">
+    </a>
+    <a target="_blank" class="page-footer__social__link" href="https://www.twitch.tv/nvidia">
+        <img title="Twitch TV" src="//s201.q4cdn.com/141608511/files/design/social/Twitch-icon.svg" class="socialIcon">
+    </a>
+</div>
+        </div>
+    </div>
+</div></span></span></div>
+            </div>
+            <div class="pane pane--footer2">
+                <div class="pane_inner"><span class='FooterPane2Div20'><div id="_ctrl0_ctl63_divModuleContainer" class="module module-html module-country-footer">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <p class="small"><small>Investors and others should note that we announce material financial information to our investors using our investor relations website, press releases, SEC filings and public conference calls and webcasts. We intend to use our&nbsp;<a href="https://twitter.com/NVIDIA" target="_blank">@NVIDIA</a>&nbsp;Twitter account,&nbsp;<a href="https://www.facebook.com/NVIDIA" target="_blank">NVIDIA Facebook</a>&nbsp;page,&nbsp;<a href="https://www.linkedin.com/company/nvidia?trk=hb_tab_compy_id_3608" target="_blank">NVIDIA LinkedIn</a>&nbsp;page and company&nbsp;<a href="https://blogs.nvidia.com/" target="_blank">blog</a>&nbsp;as a means of disclosing information about our company, our services and other matters and for complying with our disclosure obligations under Regulation FD. The information we post through these social media channels may be deemed material. Accordingly, investors should monitor these accounts and the blog, in addition to following our press releases, SEC filings and public conference calls and webcasts. This list may be updated from time to time.
+</small></p>
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" enable-background="new 0 407.8 1000 184.4" viewBox="0 407.8 1000 184.4" class="global-footer__logo">
+    <title>NVIDIA</title>
+    <g id="nvidia-logo">
+        <path d="M987.1 555.7v-2.8h1.7c0.9 0 2.3 0.1 2.3 1.2 0 1.2-0.7 1.5-1.8 1.5H987.1M987.1 557.6h1.2l2.8 4.8h3l-3.1-5c1.5-0.1 2.9-0.8 2.9-3 0-2.7-1.8-3.5-4.9-3.5h-4.4v11.5h2.6L987.1 557.6M1000 556.7c0-6.8-5.2-10.7-11.1-10.7 -5.8 0-11.1 3.9-11.1 10.7 0 6.8 5.2 10.7 11.1 10.7S1000 563.5 1000 556.7M996.8 556.7c0 4.9-3.6 8.2-7.9 8.2l0 0c-4.4 0-7.9-3.3-7.9-8.2 0-4.9 3.6-8.2 7.9-8.2C993.2 548.6 996.8 551.9 996.8 556.7z"></path>
+        <path d="M593.2 442.7v121.1h34.2V442.7H593.2zM324.4 442.5v121.2h34.5v-94.1l26.9 0.1c8.8 0 15 2.2 19.2 6.7 5.4 5.7 7.6 15.1 7.6 32v55.3H446v-66.9c0-47.8-30.5-54.3-60.2-54.3C385.8 442.5 324.4 442.5 324.4 442.5zM648.3 442.7v121.1h55.4c29.5 0 39.2-4.9 49.6-15.9 7.4-7.7 12.1-24.7 12.1-43.3 0-17-4-32.2-11.1-41.7 -12.5-16.9-30.8-20.2-58.1-20.2H648.3zM682.2 469h14.7c21.3 0 35.1 9.5 35.1 34.4 0 24.8-13.7 34.4-35.1 34.4h-14.7V469zM544 442.7l-28.5 95.9 -27.3-95.9h-36.9l39 121.1h49.2l39.3-121.1H544zM781.4 563.7h34.2v-121h-34.2V563.7zM877.2 442.7l-47.7 121h33.7l7.6-21.3h56.5l7.2 21.3h36.6l-48.2-121H877.2zM899.4 464.8l20.7 56.6H878L899.4 464.8z"></path>
+        <path d="M103.9 462.8v-16.6c1.6-0.1 3.3-0.2 4.9-0.2 45.6-1.4 75.4 39.1 75.4 39.1s-32.2 44.8-66.8 44.8c-5 0-9.4-0.8-13.4-2.2v-50.5c17.7 2.2 21.3 10 32 27.7l23.7-20c0 0-17.3-22.7-46.5-22.7C110 462.3 106.9 462.5 103.9 462.8M103.9 407.8v24.8c1.6-0.1 3.3-0.2 4.9-0.3 63.3-2.2 104.6 51.9 104.6 51.9s-47.4 57.7-96.7 57.7c-4.5 0-8.7-0.4-12.7-1.1v15.4c3.4 0.4 7 0.7 10.6 0.7 46 0 79.2-23.5 111.4-51.2 5.3 4.3 27.2 14.7 31.7 19.2 -30.6 25.6-101.9 46.3-142.3 46.3 -3.9 0-7.6-0.2-11.3-0.6v21.6h174.7V407.8H103.9zM103.9 527.8v13.1c-42.5-7.6-54.3-51.8-54.3-51.8s20.4-22.6 54.3-26.3v14.4c0 0 0 0-0.1 0 -17.7-2.2-31.7 14.5-31.7 14.5S80 519.6 103.9 527.8M28.4 487.2c0 0 25.2-37.1 75.5-41v-13.5C48.2 437.2 0 484.4 0 484.4s27.3 79 103.9 86.3v-14.4C47.7 549.2 28.4 487.2 28.4 487.2z"></path>
+    </g>
+    <image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="" title="NVIDIA" alt="NVIDIA" src="images/nvidia-logo.png"></image>
+</svg>
+<div class="global-footer__region">
+    <a href="https://www.nvidia.com/en-us/location-selector/">
+        <img src="https://www.nvidia.com/etc/designs/nvidiaGDC/clientlibs_base/images/country-selector/us.png" class="global-footer__region__icon">
+        <span class="global-footer__region__label">USA - United States</span>
+    </a>
+</div>
+<ul class="global-footer__links">
+    <li>
+        <a href="https://www.nvidia.com/en-us/about-nvidia/privacy-policy/">Privacy Policy</a>
+    </li>
+    <li>
+      <a href="https://www.nvidia.com/en-us/privacy-center/">Manage My Privacy</a>
+    </li>
+    <li>
+      <a href="https://www.nvidia.com/en-us/preferences/email-preferences/">Do Not Sell or Share My Data</a>
+    </li>
+    <li>
+      <a href="https://www.nvidia.com/en-us/about-nvidia/terms-of-service/">Terms of Service</a>
+    </li>
+  <li>
+      <a href="https://www.nvidia.com/en-us/about-nvidia/accessibility/">Accessibility</a>
+    </li>
+    <!-- <li>
+        <a href="https://www.nvidia.com/en-us/about-nvidia/legal-info/">Legal Info</a>
+    </li> -->
+   <li>
+      <a href="https://www.nvidia.com/en-us/about-nvidia/company-policies/">Corporate Policies</a>
+    </li>
+    <li>
+        <a href="https://www.nvidia.com/en-us/contact/">Contact Us</a>
+    </li>
+
+</ul>
+<div class="global-footer__copyright">Copyright © 2024 NVIDIA Corporation</div>
+        </div>
+    </div>
+</div></span></div>
+            </div>
+            <div class="pane pane--credits">
+                <div class="pane_inner"><span class='Q4FooterDiv21'>
+<div class="module module-q4-credits">
+    <div class="module_container module_container--outer">
+        <div class="module_container module_container--inner">
+            <a href="https://www.q4inc.com/Powered-by-Q4/" id="_ctrl0_ctl66_hrefWebsiteRecording" class="module-q4-credits-link" target="_blank">
+                <span id="_ctrl0_ctl66_lblWebsiteRecording" class="module-q4-credits_powered-text">Powered By Q4 Inc.</span>
+                <span id="_ctrl0_ctl66_lblVersion" class="module-q4-credits_version-text">5.153.0.3</span>
+                <span class="sr-only">(opens in new window)</span>
+            </a>
+        </div>
+    </div>
+</div></span><span class='Q4FooterDiv22'><div id="_ctrl0_ctl69_divModuleContainer" class="module module-embed hidden">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <script>
+    var q4App = $.extend(true, q4Defaults, {
+        options: {
+            mailingListConfig: {
+                tpl: '<div id="SubscriberConfirmation" class="module module-subscribe module-subscribe--fancy dark grid_col grid_col--2-of-6 grid_col--md-1-of-1"><div class="module_container--outer"><h2 class="module_title">Email Alerts</h2><div class="module_container--inner"><p class="module_message module_message--success"></p></div></div></div>',
+                location: ".pane--footer",
+                submitText: 'Subscribe'
+            }
+        },
+        init: function() {
+            var app = this;
+
+            app.cleanUp();
+            app.unWrapLink('a.module-stock-header_stock-price');
+            app.submitOnEnter('.module-unsubscribe');
+            app.submitOnEnter('.module-search');
+            app.validateSubmit('.module-search');
+            app.superfish($('.nav--secondary .level2'), {cssArrows:false}, 1024);
+            app.mobileMenuToggle($('.layout'), '.pane--navigation', '.layout_toggle i');
+            app.cleanQuickLinks($('.module-links'));
+            app.copyright($('.copyright_year'));
+            app.reveal('.pane--header .pane_inner', '.module-search-button', '.module-search', false);
+            app.docTracking();
+            app.fancySignup();
+            app.resetDate(['.nav a[href*="s3.q4web.com"]:not([href$=".pdf"])']);
+            app.previewToolbar();
+            app.globals();
+            app.closeElement();
+            //app.select2();
+            app.targetSelf('.module-quick-links-news .QuickLinkRow a');
+            app.fancyboxCloseButton();
+        },
+        globals: function(){
+            
+            //ir mobile nav
+            $('.mobile-button').click(function(e){
+                $(".module-mobile-navigation").fadeToggle();
+                $(".module-mobile-navigation").toggleClass('js--active');
+            });
+            
+            $('.module-mobile-navigation .has-children > a').click(function(e){
+                $('.module-mobile-navigation').addClass('opened');
+                var $this = $(this),
+                $parent = $this.parent();
+
+                if (!$parent.hasClass('open')) {
+                    e.preventDefault();
+                    $parent.toggleClass('open').find('>ul').slideToggle("slow");
+                    $parent.siblings().removeClass('open').find('>ul').slideUp();
+                    $parent.siblings().find('.open').removeClass('open').find('ul').hide();
+                }
+            });
+            
+            //investor link
+            $('<li class="investor"><a href="/Home/default.aspx">Investors</a></li>').prependTo('.nav--main ul.level1, .module-mobile-navigation ul.level1');
+        },
+        select2: function(){
+            $("select").select2({
+                minimumResultsForSearch: Infinity
+            });
+        },
+        closeElement: function(){
+            $('.module-search-button').on("click",function(){
+                $('.module-mobile-navigation.js--active').css("display","none");
+                $('.layout').removeClass('js--mobile');
+            });
+
+            $('.mobile-button').on("click",function(){
+                $('.module-search').removeClass('js--revealed');
+            });
+        },
+        targetSelf: function(selector){
+          $(selector).attr("target","_self"); 
+        },
+        fancySignup: function() {
+            var a = this
+            , b = !0
+            , c = a.options.mailingListSignupCls
+            , d = $(c)
+            , e = 'div[id*="SubscriberConfirmation"]'
+            , f = $('div[id*="SubscriberConfirmation"]')
+            , g = a.options.mailingListConfig.location + " " + e + " .module_message--success"
+            , h = $(g);
+            if (f.is(":visible")) {
+                if (f.filter(":visible").closest(a.options.mailingListConfig.location).length) {
+                    var i = f.filter(":visible").closest(a.options.mailingListConfig.location).find(".module_message--success").text();
+                    f.filter(":visible").parent().html(a.options.mailingListConfig.tpl).find(".module_message--success").html(i)
+                }
+                a.scrollTo($('div[id*="SubscriberConfirmation"]').filter(":visible"), 0),
+                h.length || $(".module-unsubscribe").addClass("js--hidden")
+            }
+            d.length && d.each(function() {
+                var d = $(this);
+                d.find("input.module_input").length && d.find("input.module_input").val().length && a.scrollTo(d, 0),
+                d.find(".CaptchaContainer").addClass("js--hidden"),
+                d.find("img").attr("alt", "Captcha"),
+                d.find('input[type="text"]').attr("aria-label", "Captcha Text"),
+                d.find("table").removeAttr("cellpadding cellspacing border width"),
+                d.find('input[type="submit"]').removeAttr("onclick").appendTo(d.find(".CaptchaContainer")),
+                d.find(".module_actions").append('<input type="submit" value="' + a.options.mailingListConfig.submitText + '" class="button module-subscribe_submit-button module-subscribe_submit-button--fancy">'),
+                d.on("click", ".module-subscribe_submit-button--fancy", function(e) {
+                    e.preventDefault(),
+                    b = !1;
+                    var f = $(this).closest(c)
+                    , g = a._mailingListValidation(f);
+                    return g.length ? a.scrollTo(d.find(".module_error-container"), 0) : (f.find(".CaptchaContainer").removeClass("js--hidden").data("container", f.attr("id")),
+                    console.log("open fancybox"),
+                    $.fancybox.open({
+                        src: f.find(".CaptchaContainer"),
+                        type: "inline",
+                        opts: {
+                            afterLoad: function() {
+                                $(".fancybox-container").appendTo($("#litPageDiv form:first"))
+                            }
+                        }
+                    })),
+                    !1
+                }),
+                d.find("input, select").on("change", function() {
+                    b || a._mailingListValidation(d)
+                }),
+                d.find('.CaptchaContainer input[type="text"]').on("keydown", function(a) {
+                    return 13 == a.keyCode ? (a.preventDefault(),
+                    $(this).closest(".CaptchaContainer").find('input[type="submit"]').trigger("click"),
+                    !1) : void 0
+                }),
+                d.find(".CaptchaContainer").prepend('<div class="module_error-container"></div>').find('input[type="submit"]').on("click", function(b) {
+                    var c = $(this).closest(".CaptchaContainer");
+                    c.find('input[type="text"]').val().length ? 6 !== c.find('input[type="text"]').val().length && (b.preventDefault(),
+                    c.find(".module_error-container").html(a.options.captchaValidationText + " " + a.options.invalidText)) : (b.preventDefault(),
+                    c.find(".module_error-container").html(a.options.captchaValidationText + " " + a.options.requiredText))
+                }),
+                d.find('input[type="text"]').on("keydown", function(a) {
+                    return 13 == a.keyCode ? (a.preventDefault(),
+                    $(this).closest(c).find('.module_actions input[type="submit"]').trigger("click"),
+                    !1) : void 0
+                })
+            })
+        },
+        fancyboxCloseButton: function () {
+            $.fancybox.defaults.buttons.push('close');
+        }
+    });
+    $('.pane--footer .left-wrap').prependTo('.pane--footer .pane_inner');
+    q4App.init();
+</script>
+        </div>
+    </div>
+</div></span><span class='Q4FooterDiv23'><div id="_ctrl0_ctl72_divModuleContainer" class="module module-embed">
+    <div class="module_container module_container--outer">
+        
+        <div class="module_container module_container--inner">
+            <script type="text/javascript">
+    typeof _satellite !== 'undefined' && _satellite.pageBottom();
+</script>
+        </div>
+    </div>
+</div></span></div>
+            </div>
+        </div>
+    </div>
+</div>
+                    <input type="hidden" name="__antiCSRF" id="__antiCSRF" value="" />
+                    <input type="hidden" name="__RequestVerificationAntiCSRFToken" id="__RequestVerificationAntiCSRFToken" value="" />
+                
+<script type="text/javascript">
+//<![CDATA[
+var Page_ValidationSummaries =  new Array(document.getElementById("_ctrl0_ctl36_validationsummary"));
+var Page_Validators =  new Array(document.getElementById("_ctrl0_ctl36_regexEmailValidator1"), document.getElementById("_ctrl0_ctl36_reqvalEmailValidator1"), document.getElementById("_ctrl0_ctl36_cusvalMailingListsValidator"), document.getElementById("_ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1"), document.getElementById("_ctrl0_ctl36_ctl19"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var _ctrl0_ctl36_validationsummary = document.all ? document.all["_ctrl0_ctl36_validationsummary"] : document.getElementById("_ctrl0_ctl36_validationsummary");
+_ctrl0_ctl36_validationsummary.headertext = "<p class=\'module_message module_message--error\'>The following errors must be corrected:</p>";
+_ctrl0_ctl36_validationsummary.displaymode = "List";
+_ctrl0_ctl36_validationsummary.validationGroup = "6adf493f-69f6-411b-ab46-304b9bf3d14d";
+var _ctrl0_ctl36_regexEmailValidator1 = document.all ? document.all["_ctrl0_ctl36_regexEmailValidator1"] : document.getElementById("_ctrl0_ctl36_regexEmailValidator1");
+_ctrl0_ctl36_regexEmailValidator1.controltovalidate = "_ctrl0_ctl36_txtEmail";
+_ctrl0_ctl36_regexEmailValidator1.errormessage = "Email address is not valid.";
+_ctrl0_ctl36_regexEmailValidator1.display = "None";
+_ctrl0_ctl36_regexEmailValidator1.enabled = "False";
+_ctrl0_ctl36_regexEmailValidator1.evaluationfunction = "RegularExpressionValidatorEvaluateIsValid";
+_ctrl0_ctl36_regexEmailValidator1.validationexpression = "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$";
+var _ctrl0_ctl36_reqvalEmailValidator1 = document.all ? document.all["_ctrl0_ctl36_reqvalEmailValidator1"] : document.getElementById("_ctrl0_ctl36_reqvalEmailValidator1");
+_ctrl0_ctl36_reqvalEmailValidator1.controltovalidate = "_ctrl0_ctl36_txtEmail";
+_ctrl0_ctl36_reqvalEmailValidator1.errormessage = "Email address is required.";
+_ctrl0_ctl36_reqvalEmailValidator1.display = "None";
+_ctrl0_ctl36_reqvalEmailValidator1.validationGroup = "6adf493f-69f6-411b-ab46-304b9bf3d14d";
+_ctrl0_ctl36_reqvalEmailValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+_ctrl0_ctl36_reqvalEmailValidator1.initialvalue = "";
+var _ctrl0_ctl36_cusvalMailingListsValidator = document.all ? document.all["_ctrl0_ctl36_cusvalMailingListsValidator"] : document.getElementById("_ctrl0_ctl36_cusvalMailingListsValidator");
+_ctrl0_ctl36_cusvalMailingListsValidator.errormessage = "Mailing list selection is required.";
+_ctrl0_ctl36_cusvalMailingListsValidator.display = "None";
+_ctrl0_ctl36_cusvalMailingListsValidator.validationGroup = "6adf493f-69f6-411b-ab46-304b9bf3d14d";
+_ctrl0_ctl36_cusvalMailingListsValidator.evaluationfunction = "CustomValidatorEvaluateIsValid";
+var _ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1 = document.all ? document.all["_ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1"] : document.getElementById("_ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1");
+_ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1.controltovalidate = "_ctrl0_ctl36_UCCaptcha_txtCode";
+_ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1.focusOnError = "t";
+_ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1.errormessage = "Please provide the code.";
+_ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1.display = "Dynamic";
+_ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1.validationGroup = "6adf493f-69f6-411b-ab46-304b9bf3d14d";
+_ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+_ctrl0_ctl36_UCCaptcha_RequiredFieldValidator1.initialvalue = "";
+var _ctrl0_ctl36_ctl19 = document.all ? document.all["_ctrl0_ctl36_ctl19"] : document.getElementById("_ctrl0_ctl36_ctl19");
+_ctrl0_ctl36_ctl19.controltovalidate = "_ctrl0_ctl36_txtEmail";
+_ctrl0_ctl36_ctl19.errormessage = "Email Address is invalid.";
+_ctrl0_ctl36_ctl19.display = "None";
+_ctrl0_ctl36_ctl19.validationGroup = "6adf493f-69f6-411b-ab46-304b9bf3d14d";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/js/anti-csrf.js">
+    </script>
+
+    <iframe
+        id="q4l-iframe"
+        tabindex="-1"
+        title="Q4 Iframe"
+        aria-hidden="true"
+        style="position: absolute; width: 0px; height: 0px; border: 0; left: -999px; top: -999px;"></iframe>
+
+    
+    <iframe
+        id="q4l-idp-iframe"
+        tabindex="-1"
+        title="Q4 IdP Iframe"
+        aria-hidden="true"
+        style="position: absolute; width: 0px; height: 0px; border: 0; left: -999px; top: -999px;"></iframe>
+
+    <script>
+        (function () {
+            const iframe = document.getElementById("q4l-idp-iframe");
+            iframe.onload = function () {
+                const redirectUrl = iframe.contentWindow.location.href;
+                if (redirectUrl !== iframe.src) {
+                    iframe.src = redirectUrl;
+                }
+            }
+        })();
+    </script>
+    
+
+    <script>
+        Q4Login.IframeRedirectURI = "https://login.q4inc.com/authorize?client_id=gKrDY1E9BUSWfU7DGuW2CO4rjdskiNg7&scope=openid+profile+email&response_type=code&response_mode=query&nonce=YSjAVf71VLNXWNXdmHHfcgObIw&state=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJyZXR1cm5VcmwiOiJodHRwczovL2ludmVzdG9yLm52aWRpYS5jb20vcTRsb2dpbmNhbGxiYWNrLmFzcHgiLCJleHAiOjE3NTI0NTM0NzIuMCwiaWF0IjoxNzQ3MTkzODcyLjAsImlzcyI6IlE0LldlYi5QdWJsaWMuU2l0ZSIsImF1ZCI6InVwc3RyZWFtLmNkbi53ZWIucHJkLnE0aW5jLmNvbSJ9.TU4v7fM3m4bVJmj3eulfL5iEf6z7kTOm7yyFFpjqSE4&redirect_uri=https%3a%2f%2fauth.platform.q4inc.com%2fauth%2fpublicAuthRedirect&prompt=none";
+        Q4IdpLogin.IframeRedirectURI = "https://identity.q4inc.com/oauth/auth?response_type=code&client_id=q4-studio-public-client&redirect_uri=https%3A%2F%2Fauth.platform.q4inc.com%2Fauth%2Fv2%2FpublicAuthRedirect&scope=openid%20profile%20email&state=eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJyZXR1cm5VcmwiOiJodHRwczovL2ludmVzdG9yLm52aWRpYS5jb20vUTRJZHBMb2dpbkNhbGxiYWNrLmFzcHgiLCJleHAiOjE3NTQ5Njk4NzIuMCwiaWF0IjoxNzQ3MTkzODcyLjAsImlzcyI6IlE0LldlYi5QdWJsaWMuU2l0ZSIsImF1ZCI6InVwc3RyZWFtLmNkbi53ZWIucHJkLnE0aW5jLmNvbSJ9.lpKp_hFsLx6WcOrEwMusoaGVwwRwZdVxxU0pDQVx260&prompt=none";
+        (function () {
+            if (window.location.hash.includes("login=true")) {
+                // q4pid is set in the modal so it should already be there
+                const pendoId = window.localStorage.getItem("q4pid");
+
+                // email is also from modal
+                const email = window.localStorage.getItem("q4l_email");
+
+                let redirectUrl = $('#hdnRedirectToLoginUrl').val();
+                redirectUrl = redirectUrl.replace("_q4pidval_", pendoId);
+                redirectUrl = redirectUrl.replace("_q4lemail_", email);
+
+                window.location.replace(redirectUrl);
+            }
+        })();
+    </script>
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            var evgElement = document.getElementsByClassName("evergreen-layout");
+            if (evgElement.length == 0) {
+                var skipLink = document.getElementById("skip-link");
+                if (skipLink) {
+                    skipLink.remove();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
