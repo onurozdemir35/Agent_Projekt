@@ -52,7 +52,7 @@ def load_and_split_documents(data_dir="./data", chunk_size=500, chunk_overlap=10
         print("❌ No valid files were found in the directory.")
         return []
 
-    splitter = (chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     chunks = splitter.split_documents(docs)
     print(f"✅ {len(chunks)} chunks were loaded and split.")
 
