@@ -1,0 +1,138 @@
+file,missing_count,missing_items
+10-K-2019-Apple.pdf,2,"Item 1C, Item 6"
+10-K-2020-Apple.pdf,1,Item 1C
+10-K-2021-Apple.pdf,1,Item 1C
+10-K-2022-Apple.pdf,1,Item 1C
+10-K-2023-Apple.pdf,0,
+10-K-2024-Apple.pdf,0,
+10K_meta_2020.pdf,1,Item 1C
+10k_meta_2019.pdf,1,Item 1C
+10k_meta_2021.pdf,1,Item 1C
+10k_meta_2022.pdf,1,Item 1C
+10k_meta_2023.pdf,0,
+10k_meta_2024.pdf,0,
+10k_microsoft_2019.pdf,1,Item 1C
+10k_microsoft_2020.pdf,1,Item 1C
+10k_microsoft_2021.pdf,1,Item 1C
+10k_microsoft_2022.pdf,1,Item 1C
+10k_microsoft_2023.pdf,1,Item 1C
+10k_microsoft_2024.pdf,0,
+10q-1q-2019-Apple.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-1q-2019-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-1q-2020-Apple.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-1q-2020-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-1q-2021-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-1q-2021-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-1q-2022-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-1q-2022-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-1q-2023-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-1q-2023-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-1q-2024-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-1q-2024-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2019-Apple.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2019-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2020-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2020-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2021-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2021-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2022-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2022-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2023-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2023-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2024-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-2q-2024-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2019-Apple.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2019-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2020-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2020-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2021-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2021-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2022-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2022-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2023-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2023-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2024-Apple.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+10q-3q-2024-Google.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q-10q_microsoft_2019.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q-10q_microsoft_2020.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q-10q_microsoft_2021.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q-10q_microsoft_2022.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q-10q_microsoft_2023.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q-10q_microsoft_2024.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q_10q_meta_2019.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q_10q_meta_2020.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q_10q_meta_2021.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q_10q_meta_2022.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q_10q_meta_2023.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+1q_10q_meta_2024.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2012-2q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2019-10k-nvidia.pdf,2,"Item 1C, Item 16"
+2019-1q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2019-2q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2019-3q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2019-Annual-Report Meta.pdf,1,Item 1C
+2019-Annual-Report-NVIDIA.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2020-10k-nvidia.pdf,1,Item 1C
+2020-1q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2020-2q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2020-3q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2020-Annual-Report Meta.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2020-Annual-Report-NVIDIA.pdf,2,"Item 1C, Item 16"
+2021-10k-nvidia.pdf,1,Item 1C
+2021-1q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2021-2q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2021-3q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2021-Annual-Report-Meta.pdf,1,Item 1C
+2021-Annual-Report-NVIDIA.pdf,1,Item 1C
+2022-10k-nvidia.pdf,1,Item 1C
+2022-1q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2022-3q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2022-Annual-Report-NVIDIA.pdf,1,Item 1C
+2022-alphabet-annual-report.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2023-10k-nvidia.pdf,0,
+2023-1q-10q-nvidia.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2023-2q-10q-nvidia.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2023-3q-10q-nvidia.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2023-Annual-Report-NVIDIA.pdf,1,Item 1C
+2023-alphabet-annual-report.pdf,0,
+2024-10k-nvidia.pdf,0,
+2024-1q-10q-nvidia.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2024-2q-10q-nvidia.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2024-Annual-Report-NVIDIA.pdf,0,
+2024-alphabet-annual-report.pdf,0,
+2q-10q_microsoft_2019.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2q-10q_microsoft_2020.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2q-10q_microsoft_2021.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2q-10q_microsoft_2022.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2q-10q_microsoft_2023.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2q-10q_microsoft_2024.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2q_10q_meta_2019.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2q_10q_meta_2020.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2q_10q_meta_2021.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2q_10q_meta_2022.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2q_10q_meta_2023.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+2q_10q_meta_2024.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q-10q_microsoft_2019.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q-10q_microsoft_2020.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q-10q_microsoft_2021.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q-10q_microsoft_2022.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q-10q_microsoft_2023.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q-10q_microsoft_2024.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q_10q_meta_2019.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q_10q_meta_2020.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q_10q_meta_2021.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q_10q_meta_2022.pdf,16,"Item 1B, Item 1C, Item 5, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q_10q_meta_2023.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+3q_10q_meta_2024.pdf,15,"Item 1B, Item 1C, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+Microsoft 2019 Annual Report.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+Microsoft 2020 Annual Report.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+Microsoft 2021 Annual Report.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+Microsoft 2022 Annual Report.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+Microsoft 2023 Annual Report.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+Microsoft 2024 Annual Report.pdf,22,"Item 1, Item 1A, Item 1B, Item 1C, Item 2, Item 3, Item 4, Item 5, Item 6, Item 7, Item 7A, Item 8, Item 9, Item 9A, Item 9B, Item 10, Item 11, Item 12, Item 13, Item 14, Item 15, Item 16"
+google-10-k2019.pdf,1,Item 1C
+google-10-k2020.pdf,1,Item 1C
+google-10-k2021.pdf,1,Item 1C
+google-10-k2022.pdf,1,Item 1C
+google-10-k2023.pdf,0,
+google-10-k2024.pdf,0,

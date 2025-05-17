@@ -1,64 +1,166 @@
 import os
-from langchain_community.document_loaders import TextLoader
-from langchain_community.document_loaders import PyPDFLoader
+import pickle
+from langchain_core.documents import Document
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_huggingface import HuggingFaceEmbeddings
+from sentence_transformers import SentenceTransformer
+from langchain_community.vectorstores import Chroma
+from dotenv import load_dotenv
+from langchain.embeddings import SentenceTransformerEmbeddings
+from langchain_community.embeddings import SentenceTransformerEmbeddings
+import torch
 
-def load_and_split_documents(data_dir="./data", chunk_size=500, chunk_overlap=100):
-    """Loads and splits text and PDF documents from a directory and its subdirectories."""
-    if not os.path.exists(data_dir):
-        raise FileNotFoundError(f"The directory '{data_dir}' does not exist. Please create it and add .txt or .pdf files.")
 
-    docs = []
-    failed_files = []  # List to store files that failed to load
-    skipped_files = []  # List to store files that were skipped
+model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
+print("✅ GPU aktiv:", torch.cuda.is_available())
+print("📍 Modellgerät:", model.device)
 
-    for root, _, files in os.walk(data_dir):  # Recursively traverse directories
-        for filename in files:
-            path = os.path.join(root, filename)
+
+# Laden von Umgebungsvariablen
+load_dotenv()
+os.environ["LANGSMITH_TRACING"] = "true"
+os.environ["LANGSMITH_API_KEY"] = os.getenv("LANGSMITH_API_KEY")
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
+
+
+def load_data(file_path="extracted_documents_3.pkl"):
+    """
+    Lädt die extrahierten PDF-Daten aus einer Pickle-Datei.
+    :param file_path: Pfad zur Pickle-Datei
+    :return: Liste von extrahierten Dokument-Daten
+    """
+    with open(file_path, "rb") as f:
+        return pickle.load(f)
+
+def build_documents(extracted_data):
+    """
+    Wandelt die extrahierten Tabellen aus DataFrames in LangChain Document-Objekte um.
+    Dabei werden Metadaten (Firma, Datei, Tabellenindex) hinzugefügt.
+    :param extracted_data: Liste mit extrahierten Daten
+    :return: Liste von Document-Objekten
+    """
+    documents = []
+    for entry in extracted_data:
+        company = entry["company"]
+        file = entry["file"]
+        tables = entry["tables"]
+
+        for i, df in enumerate(tables):
             try:
-                if filename.endswith(".txt"):
-                    loader = TextLoader(path, encoding="utf-8")
-                elif filename.endswith(".pdf"):
-                    loader = PyPDFLoader(path)
-                else:
-                    skipped_files.append(filename)  # Add skipped file to the list
-                    print(f"⚠️ Skipping unsupported file format: {filename}")
-                    continue
+                # DataFrame in Markdown-Text umwandeln, für bessere Lesbarkeit
+                content = df.to_markdown(index=False)
+            except Exception:
+                # Falls Markdown fehlschlägt, konvertiere einfach in String
+                content = str(df)
 
-                loaded_docs = loader.load()
-                for doc in loaded_docs:
-                    doc.metadata["source"] = os.path.relpath(path, data_dir)  # Relative path for metadata
-                docs.extend(loaded_docs)
-            except Exception as e:
-                print(f"❌ Error loading the file {filename}: {e}")
-                failed_files.append(filename)  # Add the file to the failed list
-                continue
+            # Document-Objekt erstellen mit Text und Metadaten
+            documents.append(Document(
+                page_content=content,
+                metadata={"company": company, "file": file, "table_index": i}
+            ))
+    return documents
 
-    if len(docs) == 0:
-        print("❌ No valid files were found in the directory.")
-        return []
-
+def chunk_documents(documents, chunk_size=1000, chunk_overlap=200):
+    """
+    Zerlegt die Dokumente in kleinere Text-Chunks, um Speicher- und Suchbarkeit zu optimieren.
+    :param documents: Liste von Document-Objekten
+    :param chunk_size: maximale Größe eines Chunks in Zeichen
+    :param chunk_overlap: Überlappung zwischen den Chunks (in Zeichen)
+    :return: Liste von geteilten Chunks als Document-Objekte
+    """
     splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
-    chunks = splitter.split_documents(docs)
-    print(f"✅ {len(chunks)} chunks were loaded and split.")
-
-    # Print the list of skipped files
-    if skipped_files:
-        print("\n⚠️ The following files were skipped due to unsupported formats:")
-        for skipped_file in skipped_files:
-            print(f" - {skipped_file}")
-
-    # Print the list of failed files
-    if failed_files:
-        print("\n❌ The following files could not be processed due to errors:")
-        for failed_file in failed_files:
-            print(f" - {failed_file}")
-
+    chunks = splitter.split_documents(documents)
+    print(f"✅ {len(chunks)} Chunks erzeugt.")
     return chunks
 
+#def init_embeddings():
+#    """
+#  Lädt das SentenceTransformer Modell auf der GPU (wenn verfügbar) und erstellt LangChain Embeddings.
+#   :return: Embeddings-Objekt
+#   """
+#   print("⏳ Lade SentenceTransformer mit GPU...")
+#   sbert_model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2", device="cuda")
+#   embeddings = HuggingFaceEmbeddings(model=sbert_model)
+#  print("✅ Embeddings initialisiert.")
+#   return embeddings
+
+#def init_embeddings():
+#def init_embeddings():
+#    print("⏳ Lade SentenceTransformer mit GPU...")
+#    sbert_model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2", device="cuda")
+#    embeddings = SentenceTransformerEmbeddings(model=sbert_model)
+#    return embeddings
+def init_embeddings():
+    print("⏳ Initialisiere SentenceTransformerEmbeddings mit GPU...")
+    embeddings = SentenceTransformerEmbeddings(
+        model_name="sentence-transformers/all-mpnet-base-v2"
+    )
+    return embeddings
+   
+def init_vector_store(embeddings):
+    """
+    Initialisiert die Chroma Vektor-Datenbank mit dem gegebenen Embeddings-Modell.
+    :param embeddings: Embeddings-Objekt
+    :return: Chroma Vector Store Objekt
+    """
+    vector_store = Chroma(
+        collection_name="example_collection",              # Name der Kollektion in der DB
+        embedding_function=embeddings,                      # Embeddings-Funktion zum Vektorisieren
+        persist_directory="./chroma_langchain_db",         # Lokaler Speicherort der DB
+    )
+    return vector_store
+
+def save_documents_in_batches(documents, vector_store, batch_size=5000):
+    """
+    Speichert die Dokument-Chunks stückweise in die Vektor-Datenbank, um Speicherprobleme bei großen Datenmengen zu vermeiden.
+    :param documents: Liste von Document-Chunks
+    :param vector_store: Chroma Vektor-Datenbank-Instanz
+    :param batch_size: Anzahl Chunks pro Batch
+    """
+    total = len(documents)
+    print(f"⏳ Speichere {total} Chunks in Batches von {batch_size} ...")
+    for i in range(0, total, batch_size):
+        batch = documents[i : i + batch_size]
+        vector_store.add_documents(batch)
+        print(f"✅ Batch {i // batch_size + 1} mit {len(batch)} Chunks hinzugefügt.")
+    print("✅ Alle Chunks erfolgreich in Chroma gespeichert.")
+
+def search_in_vector_store(vector_store, query, k=3):
+    """
+    Führt eine Ähnlichkeitssuche in der Vektor-Datenbank durch.
+    :param vector_store: Chroma Vektor-Datenbank-Instanz
+    :param query: Suchanfrage als Text
+    :param k: Anzahl der Top-Treffer
+    """
+    print(f"🔍 Suche nach: {query}")
+    results = vector_store.similarity_search(query, k=k)
+    for i, doc in enumerate(results, 1):
+        print(f"\n🔎 Treffer {i}:")
+        print(doc.page_content)
+        print("📎 Metadaten:", doc.metadata)
+
+def main():
+    # 1. Lade die extrahierten Daten
+    extracted_data = load_data()
+    
+    # 2. Erstelle Document-Objekte aus den extrahierten Tabellen
+    documents = build_documents(extracted_data)
+    
+    # 3. Teile die Dokumente in handliche Chunks
+    chunks = chunk_documents(documents)
+    
+    # 4. Lade das Embeddings-Modell auf der GPU
+    embeddings = init_embeddings()
+    
+    # 5. Initialisiere die Vektor-Datenbank
+    vector_store = init_vector_store(embeddings)
+    
+    # 6. Speichere die Chunks in Batches, um Speicherprobleme zu vermeiden
+    save_documents_in_batches(chunks, vector_store, batch_size=5000)
+    
+    # 7. Beispielhafte Suche in der Vektor-Datenbank
+    query = "Wie hoch war der Gewinn 2022?"
+    search_in_vector_store(vector_store, query)
+
 if __name__ == "__main__":
-    chunks = load_and_split_documents()
-    if chunks:
-        print(f"First chunk: {chunks[0].page_content[:100]}...")
-    else:
-        print("No chunks were generated.")
+    main()

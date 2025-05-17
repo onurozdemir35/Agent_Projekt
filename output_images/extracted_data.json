@@ -1,0 +1,961 @@
+[
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10-K-2024-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10-K-2024-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-2q-2021-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-2q-2021-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-2q-2019-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-2q-2019-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10-K-2022-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10-K-2022-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-3q-2020-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-3q-2020-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-1q-2023-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-1q-2023-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-1q-2024-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-1q-2024-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-2q-2020-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-2q-2020-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-1q-2022-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-1q-2022-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10-K-2023-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10-K-2023-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-3q-2021-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-3q-2021-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-3q-2019-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-3q-2019-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-2q-2023-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-2q-2023-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-3q-2024-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-3q-2024-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-3q-2022-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-3q-2022-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10-K-2020-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10-K-2020-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-1q-2021-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-1q-2021-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-1q-2019-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-1q-2019-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-2q-2022-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-2q-2022-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-1q-2020-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-1q-2020-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-3q-2023-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-3q-2023-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10-K-2021-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10-K-2021-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10q-2q-2024-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10q-2q-2024-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Apple/10-K-2019-Apple.pdf",
+        "company": "Apple",
+        "original_filename": "10-K-2019-Apple.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-2q-2021-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-2q-2021-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-3q-2023-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-3q-2023-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-3q-2019-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-3q-2019-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-1q-2022-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-1q-2022-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-2q-2024-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-2q-2024-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-2q-2023-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-2q-2023-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-3q-2021-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-3q-2021-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/google-10-k2019.pdf",
+        "company": "Google",
+        "original_filename": "google-10-k2019.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-2q-2019-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-2q-2019-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/google-10-k2024.pdf",
+        "company": "Google",
+        "original_filename": "google-10-k2024.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/google-10-k2020.pdf",
+        "company": "Google",
+        "original_filename": "google-10-k2020.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/google-10-k2021.pdf",
+        "company": "Google",
+        "original_filename": "google-10-k2021.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-3q-2024-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-3q-2024-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/google-10-k2023.pdf",
+        "company": "Google",
+        "original_filename": "google-10-k2023.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/google-10-k2022.pdf",
+        "company": "Google",
+        "original_filename": "google-10-k2022.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-1q-2020-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-1q-2020-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-1q-2019-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-1q-2019-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-1q-2023-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-1q-2023-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-3q-2022-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-3q-2022-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-2q-2020-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-2q-2020-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/2022-alphabet-annual-report.pdf",
+        "company": "Google",
+        "original_filename": "2022-alphabet-annual-report.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/2023-alphabet-annual-report.pdf",
+        "company": "Google",
+        "original_filename": "2023-alphabet-annual-report.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-1q-2021-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-1q-2021-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-3q-2020-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-3q-2020-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-2q-2022-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-2q-2022-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/10q-1q-2024-Google.pdf",
+        "company": "Google",
+        "original_filename": "10q-1q-2024-Google.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Google/2024-alphabet-annual-report.pdf",
+        "company": "Google",
+        "original_filename": "2024-alphabet-annual-report.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/2q-10q_microsoft_2021.pdf",
+        "company": "Microsoft",
+        "original_filename": "2q-10q_microsoft_2021.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/Microsoft 2021 Annual Report.pdf",
+        "company": "Microsoft",
+        "original_filename": "Microsoft 2021 Annual Report.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/2q-10q_microsoft_2020.pdf",
+        "company": "Microsoft",
+        "original_filename": "2q-10q_microsoft_2020.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/2q-10q_microsoft_2022.pdf",
+        "company": "Microsoft",
+        "original_filename": "2q-10q_microsoft_2022.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/Microsoft 2024 Annual Report.pdf",
+        "company": "Microsoft",
+        "original_filename": "Microsoft 2024 Annual Report.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/2q-10q_microsoft_2023.pdf",
+        "company": "Microsoft",
+        "original_filename": "2q-10q_microsoft_2023.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/Microsoft 2020 Annual Report.pdf",
+        "company": "Microsoft",
+        "original_filename": "Microsoft 2020 Annual Report.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/2q-10q_microsoft_2024.pdf",
+        "company": "Microsoft",
+        "original_filename": "2q-10q_microsoft_2024.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/2q-10q_microsoft_2019.pdf",
+        "company": "Microsoft",
+        "original_filename": "2q-10q_microsoft_2019.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/1q-10q_microsoft_2024.pdf",
+        "company": "Microsoft",
+        "original_filename": "1q-10q_microsoft_2024.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/Microsoft 2023 Annual Report.pdf",
+        "company": "Microsoft",
+        "original_filename": "Microsoft 2023 Annual Report.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/1q-10q_microsoft_2019.pdf",
+        "company": "Microsoft",
+        "original_filename": "1q-10q_microsoft_2019.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/1q-10q_microsoft_2022.pdf",
+        "company": "Microsoft",
+        "original_filename": "1q-10q_microsoft_2022.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/Microsoft 2022 Annual Report.pdf",
+        "company": "Microsoft",
+        "original_filename": "Microsoft 2022 Annual Report.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/1q-10q_microsoft_2023.pdf",
+        "company": "Microsoft",
+        "original_filename": "1q-10q_microsoft_2023.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/1q-10q_microsoft_2021.pdf",
+        "company": "Microsoft",
+        "original_filename": "1q-10q_microsoft_2021.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/1q-10q_microsoft_2020.pdf",
+        "company": "Microsoft",
+        "original_filename": "1q-10q_microsoft_2020.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/3q-10q_microsoft_2019.pdf",
+        "company": "Microsoft",
+        "original_filename": "3q-10q_microsoft_2019.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/3q-10q_microsoft_2024.pdf",
+        "company": "Microsoft",
+        "original_filename": "3q-10q_microsoft_2024.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/3q-10q_microsoft_2023.pdf",
+        "company": "Microsoft",
+        "original_filename": "3q-10q_microsoft_2023.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/3q-10q_microsoft_2022.pdf",
+        "company": "Microsoft",
+        "original_filename": "3q-10q_microsoft_2022.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/3q-10q_microsoft_2020.pdf",
+        "company": "Microsoft",
+        "original_filename": "3q-10q_microsoft_2020.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/3q-10q_microsoft_2021.pdf",
+        "company": "Microsoft",
+        "original_filename": "3q-10q_microsoft_2021.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/10k_microsoft_2024.pdf",
+        "company": "Microsoft",
+        "original_filename": "10k_microsoft_2024.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/10k_microsoft_2019.pdf",
+        "company": "Microsoft",
+        "original_filename": "10k_microsoft_2019.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/10k_microsoft_2021.pdf",
+        "company": "Microsoft",
+        "original_filename": "10k_microsoft_2021.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/10k_microsoft_2020.pdf",
+        "company": "Microsoft",
+        "original_filename": "10k_microsoft_2020.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/Microsoft 2019 Annual Report.pdf",
+        "company": "Microsoft",
+        "original_filename": "Microsoft 2019 Annual Report.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/10k_microsoft_2022.pdf",
+        "company": "Microsoft",
+        "original_filename": "10k_microsoft_2022.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Microsoft/10k_microsoft_2023.pdf",
+        "company": "Microsoft",
+        "original_filename": "10k_microsoft_2023.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/2020-Annual-Report Meta.pdf",
+        "company": "Meta",
+        "original_filename": "2020-Annual-Report Meta.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/2q_10q_meta_2019.pdf",
+        "company": "Meta",
+        "original_filename": "2q_10q_meta_2019.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/10K_meta_2020.pdf",
+        "company": "Meta",
+        "original_filename": "10K_meta_2020.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/1q_10q_meta_2021.pdf",
+        "company": "Meta",
+        "original_filename": "1q_10q_meta_2021.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/1q_10q_meta_2020.pdf",
+        "company": "Meta",
+        "original_filename": "1q_10q_meta_2020.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/10k_meta_2021.pdf",
+        "company": "Meta",
+        "original_filename": "10k_meta_2021.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/2q_10q_meta_2024.pdf",
+        "company": "Meta",
+        "original_filename": "2q_10q_meta_2024.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/2019-Annual-Report Meta.pdf",
+        "company": "Meta",
+        "original_filename": "2019-Annual-Report Meta.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/10k_meta_2023.pdf",
+        "company": "Meta",
+        "original_filename": "10k_meta_2023.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/1q_10q_meta_2022.pdf",
+        "company": "Meta",
+        "original_filename": "1q_10q_meta_2022.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/1q_10q_meta_2023.pdf",
+        "company": "Meta",
+        "original_filename": "1q_10q_meta_2023.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/10k_meta_2022.pdf",
+        "company": "Meta",
+        "original_filename": "10k_meta_2022.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/2q_10q_meta_2023.pdf",
+        "company": "Meta",
+        "original_filename": "2q_10q_meta_2023.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/2q_10q_meta_2022.pdf",
+        "company": "Meta",
+        "original_filename": "2q_10q_meta_2022.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/2q_10q_meta_2020.pdf",
+        "company": "Meta",
+        "original_filename": "2q_10q_meta_2020.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/10k_meta_2019.pdf",
+        "company": "Meta",
+        "original_filename": "10k_meta_2019.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/1q_10q_meta_2024.pdf",
+        "company": "Meta",
+        "original_filename": "1q_10q_meta_2024.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/1q_10q_meta_2019.pdf",
+        "company": "Meta",
+        "original_filename": "1q_10q_meta_2019.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/10k_meta_2024.pdf",
+        "company": "Meta",
+        "original_filename": "10k_meta_2024.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/2q_10q_meta_2021.pdf",
+        "company": "Meta",
+        "original_filename": "2q_10q_meta_2021.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/3q_10q_meta_2022.pdf",
+        "company": "Meta",
+        "original_filename": "3q_10q_meta_2022.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/3q_10q_meta_2023.pdf",
+        "company": "Meta",
+        "original_filename": "3q_10q_meta_2023.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/3q_10q_meta_2021.pdf",
+        "company": "Meta",
+        "original_filename": "3q_10q_meta_2021.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/3q_10q_meta_2020.pdf",
+        "company": "Meta",
+        "original_filename": "3q_10q_meta_2020.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/3q_10q_meta_2024.pdf",
+        "company": "Meta",
+        "original_filename": "3q_10q_meta_2024.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/3q_10q_meta_2019.pdf",
+        "company": "Meta",
+        "original_filename": "3q_10q_meta_2019.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Meta/2021-Annual-Report-Meta.pdf",
+        "company": "Meta",
+        "original_filename": "2021-Annual-Report-Meta.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2024-1q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2024-1q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2021-1q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2021-1q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2023-Annual-Report-NVIDIA.pdf",
+        "company": "Nvidia",
+        "original_filename": "2023-Annual-Report-NVIDIA.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2020-1q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2020-1q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2019-3q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2019-3q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2022-Annual-Report-NVIDIA.pdf",
+        "company": "Nvidia",
+        "original_filename": "2022-Annual-Report-NVIDIA.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2019-Annual-Report-NVIDIA.pdf",
+        "company": "Nvidia",
+        "original_filename": "2019-Annual-Report-NVIDIA.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2023-1q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2023-1q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2019-2q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2019-2q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2019-10k-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2019-10k-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2022-1q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2022-1q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2023-10k-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2023-10k-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2023-3q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2023-3q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2020-2q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2020-2q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2020-Annual-Report-NVIDIA.pdf",
+        "company": "Nvidia",
+        "original_filename": "2020-Annual-Report-NVIDIA.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2024-10k-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2024-10k-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2024-Annual-Report-NVIDIA.pdf",
+        "company": "Nvidia",
+        "original_filename": "2024-Annual-Report-NVIDIA.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2024-2q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2024-2q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2022-10k-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2022-10k-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2022-3q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2022-3q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2021-2q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2021-2q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2020-10k-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2020-10k-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2021-3q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2021-3q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2012-2q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2012-2q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2020-3q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2020-3q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2023-2q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2023-2q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2019-1q-10q-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2019-1q-10q-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2021-Annual-Report-NVIDIA.pdf",
+        "company": "Nvidia",
+        "original_filename": "2021-Annual-Report-NVIDIA.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    },
+    {
+        "file_path": "/Users/onurozdemir/Desktop/Agent_Projekt/data/Nvidia/2021-10k-nvidia.pdf",
+        "company": "Nvidia",
+        "original_filename": "2021-10k-nvidia.pdf",
+        "error": "Unable to get page count. Is poppler installed and in PATH?",
+        "elements": []
+    }
+]
